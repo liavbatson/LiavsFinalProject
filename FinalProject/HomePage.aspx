@@ -4,7 +4,7 @@
     <link href="s.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-	<br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br />
 	<marquee scroll-behavior="smooth" behavior="scroll" direction="up" scrollamount="2" style="top:10%;left:10%">
         <p style="font-family:sans-serif; font-size:40px;font-weight:bold;text-align:center;text-decoration:none" dir="rtl">
             קוראים לנו לידור וליאב, <br />

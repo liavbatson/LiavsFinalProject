@@ -25,5 +25,4 @@
         </table>
         <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
     </center>
-    liran
 </asp:Content>

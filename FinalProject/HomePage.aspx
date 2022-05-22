@@ -16,7 +16,7 @@
             <br /><br /><br />
         </p>
     </marquee> 
-   liran
+   
 <div class="containerleft" dir="ltr">
 	<div id="pyramid-small">	
 		<div class="pyram-small one s1"></div>

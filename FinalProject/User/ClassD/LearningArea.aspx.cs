@@ -4,12 +4,32 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
+using System.Media;
 public partial class User_ClassD_LearningArea : System.Web.UI.Page
 {
+    SoundPlayer paraA;
+    SoundPlayer paraB;
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        paraA = new SoundPlayer(Server.MapPath("~/Audio/D/AreaParaA.wav"));
+        paraB = new SoundPlayer(Server.MapPath("~/Audio/D/AreaParaB.wav"));
+    }
+    /* Play And Pause Para */
+    protected void PlayParaA(object sender, EventArgs e)
+    {
+        paraA.Play();
+    }
+    protected void StopParaA(object sender, EventArgs e)
+    {
+        paraA.Stop();
+    }
+    protected void PlayParaB(object sender, EventArgs e)
+    {
+        paraB.Play();
+    }
+    protected void StopParaB(object sender, EventArgs e)
+    {
+        paraB.Stop();
     }
     protected void CloseFirstP(object sender, EventArgs e)
     {

@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             לפנינו מחומש עם קודקודים A,B,C,D,E : <br />
             <img src="../../Images/D/Pentagon2.png" /> <br />
             קו המחבר בין שני קודקודים נקרא צלע. <br />
@@ -56,6 +58,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             ניקח מלבן ונצבע כל צלע בצבע אחר : <br />
             <img src="../../Images/D/ColoredRectangle.png" /> <br />
             לצלע הכתומה ולצלע הירוקה אין קודקוד משותף לכן הן נקראות צלעות נגדיות. <br />
@@ -126,6 +130,8 @@
         </h1>
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaC" runat="server" OnClick="PlayParaC" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaC" runat="server" OnClick="StopParaC" class="audioButtonStop"/> <br />
             נבנה ריבוע ונצבע את כל צלעותיו באדום : <br />
             נצבע את הצלעות באותו צבע כי בריבוע כל הצלעות שוות. <br />
             <img src="../../Images/D/RedSquare.png" /> <br />
@@ -191,6 +197,8 @@
         </h1>
         <br />
         <p runat="server" id="fourthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaD" runat="server" OnClick="PlayParaD" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaD" runat="server" OnClick="StopParaD" class="audioButtonStop"/> <br />
             <img src="../../Images/D/SquareAndRectComp.png" /> <br />
             <img src="../../Images/D/SquareAndRectComp2.png" /> <br />
             <img src="../../Images/D/SquareAndRectComp3.png" /> <br />

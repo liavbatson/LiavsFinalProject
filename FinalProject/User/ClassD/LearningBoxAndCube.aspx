@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             לפנינו תיבה : <br />
             <img src="../../Images/D/Box3.png" /> <br />
             כל דופן של התיבה היא בצורת מלבן (זוכרים ? גם ריבוע הוא מלבן), הדופן בתיבה נקראת פאה. <br />
@@ -47,6 +49,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             <img src="../../Images/D/BoxAndCube.png" /> <br />
             במה התיבה והקוביה דומות ובמה הן שונות ? <br />
             <b> מספר הפאות : </b> <br />
@@ -84,6 +88,8 @@
         </h1>
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaC" runat="server" OnClick="PlayParaC" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaC" runat="server" OnClick="StopParaC" class="audioButtonStop"/> <br />
             זו פריסה של תיבה : <br />
             <img src="../../Images/D/BoxSpread.png" /> <br />
             נבנה תיבה לפי הקיפולים. <br />
@@ -135,6 +141,8 @@
         </h1>
         <br />
         <p runat="server" id="fourthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaD" runat="server" OnClick="PlayParaD" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaD" runat="server" OnClick="StopParaD" class="audioButtonStop"/> <br />
             לפנינו שרטוט של תיבה : <br />
             <img src="../../Images/D/Box5.png" /> <br />
             נעביר ישר בין קודקוד <span style="color:red"> B </span> לקודקוד <span style="color:red"> H </span> <br />
@@ -170,6 +178,8 @@
         </h1>
         <br />
         <p runat="server" id="fifthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaE" runat="server" OnClick="PlayParaE" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaE" runat="server" OnClick="StopParaE" class="audioButtonStop"/> <br />
             לפנינו תיבה : <br />
             <img src="../../Images/D/BoxVolume.png" /> <br />
             לבסיס צורת מלבן שאורכו <span style="color:orange"> 6 ס"מ </span> ורוחבו <span style="color:blue"> 2 ס"מ </span> <br />
@@ -209,6 +219,8 @@
         </h1>
         <br />
         <p runat="server" id="sixthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaF" runat="server" OnClick="PlayParaF" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaF" runat="server" OnClick="StopParaF" class="audioButtonStop"/> <br />
             נתונה תיבה : <br />
             <img src="../../Images/D/Box6.png" /> <br />
             פריסת התיבה נראית כך : <br />
@@ -251,6 +263,8 @@
         </h1>
         <br />
         <p runat="server" id="seventhP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaG" runat="server" OnClick="PlayParaG" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaG" runat="server" OnClick="StopParaG" class="audioButtonStop"/> <br />
             נתונה קוביה שצלעה 5 ס"מ. הגדילו את הצלע פי 2. <br />
             נוצרה קוביה חדשה שאורך צלעה 10 ס"מ. <br />
             פי כמה גדול <span style="color:red"> נפח </span> הקוביה החדשה <span style="color:red"> מנפח </span> הקוביה המקורית ? <br />

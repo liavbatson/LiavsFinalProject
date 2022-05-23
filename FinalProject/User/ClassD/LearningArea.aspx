@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             על סריג של 1 סמ"ר בנו מלבן שאורך צלע אחת שלו הוא 2 ס"מ ואורך הצלע השנייה שלו הוא 5 ס"מ. נסמן אותו ב-1. מה שטחו ? <br />
             <img src="../../Images/D/RectArea.png" /> <br />
             הסריג בנוי ממשבצות ריבועיות שצלען 1 ס"מ. השטח של כל משבצת הוא 1 סנטימטר מרובע. או ברישום קצר - <span style="color:#0082e6"> 1 סמ"ר </span> <br />
@@ -60,6 +62,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             בדף הסריג של סמ"ר נשרטט <span style="color:#0082e6"> מלבן 1 </span> שמידותיו 3 ס"מ ו-4 ס"מ. <br />
             <img src="../../Images/D/RectOne.png" /> <br />
             שטח מלבן 1 הוא מכפלה של המידות : <br />

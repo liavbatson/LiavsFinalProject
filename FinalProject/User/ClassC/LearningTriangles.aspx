@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             <img src="../../Images/C/SmallTriangle.png" /> <br />
             זהו <span style="color:#0082e6"> מצולע </span>. <br />
             כמה צלעות יש במצולע ? <b> <span style="color:red"> 3 </span> </b> <br />
@@ -45,6 +47,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             לפנינו 7 משולשים : <br />
             <img src="../../Images/C/SevenTriangles.png" /> <br />
             נמיין את המשולשים על פי מספר הצלעות השוות שיש בהם : <br />
@@ -79,6 +83,8 @@
         </h1>
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaC" runat="server" OnClick="PlayParaC" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaC" runat="server" OnClick="StopParaC" class="audioButtonStop"/> <br />
             נבדוק בעזרת זווית ישרה (פינה של דף) אילו זוויות יש בכל משולש : <br />
             <b> זכרו : </b> אם הפינה של הדף מתאימה בדיוק אז זה זווית ישרה, אם הזווית קטנה מהפינה של הדף אז היא זווית חדה, <br />
             ואם הזווית גדולה מהפינה של הדף אז היא זווית קהה. <br />

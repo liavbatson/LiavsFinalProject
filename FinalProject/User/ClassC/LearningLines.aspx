@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             <img src="../../Images/C/SlicedLines.png" /> <br />
             לשני הישרים האלו קוראים <span style="color:#0082e6"> ישרים נחתכים. </span> <br />
             כל שני ישרים שיש להם נקודת מפגש נקראים נחתכים. <br />
@@ -60,6 +62,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             ישרים מקבילים - <br />
             <img src="../../Images/C/ParallelLines2.png" /> <br />
             ישרים נחתכים - <br />

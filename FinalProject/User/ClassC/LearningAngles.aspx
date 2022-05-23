@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             <img src="../../Images/C/6angles.png" /> <br />
             <b> במה דומים הציורים ובמה הם שונים ? </b> <br />
             <b> דמיון : </b> בכולם יש 2 קווים והם נפגשים בנקודה. <br />
@@ -47,6 +49,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             <b> איזה זווית גדולה יותר ? </b> <br />
             זווית א'  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  זווית ב' <br />
             <img src="../../Images/C/AngleA.png" /> <img src="../../Images/C/AngleB.png" /> <br />
@@ -86,6 +90,8 @@
         </h1>
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaC" runat="server" OnClick="PlayParaC" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaC" runat="server" OnClick="StopParaC" class="audioButtonStop"/> <br />
             זווית ישרה שווה ל - 90 מעלות. <br />
             <b> זווית ישרה -</b> <br />
             <img src="../../Images/C/RightAngle.png" /> <br />

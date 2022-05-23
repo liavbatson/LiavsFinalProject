@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             איזה צורה יוצאת דופן ? <br />
             <img src="../../Images/C/9Shapes.png" /> <br />
             <b> צורה ה' היא יוצאת דופן. </b> <br />
@@ -40,6 +42,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             <b> <span style="color:#0082e6"> בניית מרובעים מ-2 משולשים חופפים ישרי זווית - </span> </b> <br />
             <img src="../../Images/C/SameTriangleTwice.png" /> <br />
             שני המשולשים הם משולשים ישרי זווית. הם שווים זה לזה ולכן הם משולשים חופפים. <br />
@@ -96,6 +100,8 @@
         </h1>
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaC" runat="server" OnClick="PlayParaC" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaC" runat="server" OnClick="StopParaC" class="audioButtonStop"/> <br />
             <img src="../../Images/C/SameTriangleTwice2.png" /> <br />
             שני המשולשים שווים בכל הצלעות והזוויות - המשולשים חופפים. <br />
             המשולשים הם: <b> ישרי זווית, שווי שוקיים. </b> <br /><br />
@@ -130,6 +136,8 @@
         </h1>
         <br />
         <p runat="server" id="fourthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaD" runat="server" OnClick="PlayParaD" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaD" runat="server" OnClick="StopParaD" class="audioButtonStop"/> <br />
             <img src="../../Images/C/SameTriangleTwice3.png" /> <br />
             שני המשולשים חופפים והם שווי שוקיים. <br /><br />
             נצמיד את המשולשים לאורך הצלע <span style="color:cornflowerblue"> הכחולה </span> <br />
@@ -156,6 +164,8 @@
         </h1>
         <br />
         <p runat="server" id="fifthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaE" runat="server" OnClick="PlayParaE" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaE" runat="server" OnClick="StopParaE" class="audioButtonStop"/> <br />
             <img src="../../Images/C/Trapezoid.png" /> <br />
             אלו שני מרובעים. <br />
             כמה זוגות של צלעות מקבילות יש בצורה א' ? 2 זוגות. <br />

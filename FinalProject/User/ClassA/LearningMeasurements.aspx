@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             <span style="color:#0082e6">השוואה ישירה - </span> נניח שני עצמים זה לצד זה בקו התחלה משותף, לדוגמה עט ועפרון, <br />
             ונראה מי מבניהם ארוך או קצר יותר. <br />
             <img src="../../Images/A/PenAndPencil.png" /> <br />
@@ -33,6 +35,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             במקרים בהם לא נוכל להביא את שני העצמים או יותר אותם נרצה להשוות זה לצד זה, <b> לא נוכל לבצע השוואה ישירה.</b> <br />
             במקרים כאלו נעזר במתווך, שיעזור לנו למדוד כל אחד מהעצמים על מנת להשוות אותם. <br />
             נניח שיש לנו שני עצים : <br /> <b> עץ ראשון - </b> <br />
@@ -57,6 +61,8 @@
         </h1>
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaC" runat="server" OnClick="PlayParaC" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaC" runat="server" OnClick="StopParaC" class="audioButtonStop"/> <br />
             <b> <span style="color:#0082e6">מדידה ביחידות מידה שרירותיות</span> </b> <br />
             כדי לענות על השאלה - <b> מה אורך העט ? </b> <br />
             יש לקבוע <span style="color:#0082e6"> יחידת מידה.</span> <br />

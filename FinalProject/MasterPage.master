@@ -122,8 +122,8 @@
             <li id="ManagerPanelLi" runat="server" style="font-family: 'Rubik Moonrocks', cursive;"><asp:HyperLink ID="ManagerPanel" runat="server" NavigateUrl="~/Manager/ManagerMenu.aspx">תפריט מנהל</asp:HyperLink></li>
             <li id="UserPanelLi" runat="server" style="font-family: 'Rubik Moonrocks', cursive;"><asp:HyperLink ID="UserPanel" runat="server" NavigateUrl="~/User/UserMenu.aspx">תפריט משתמש</asp:HyperLink></li>
             <li id="SignOutLi" runat="server" style="font-family: 'Rubik Moonrocks', cursive;"><asp:HyperLink ID="SignOut" runat="server" NavigateUrl="~/LogOut.aspx">התנתק</asp:HyperLink></li>
-            <li id="SignInLi" runat="server" style="font-family: 'Rubik Moonrocks', cursive;"><asp:HyperLink ID="SignIn" runat="server" NavigateUrl="~/LogIn.aspx">התחבר</asp:HyperLink></li>
             <li id="SignUpLi" runat="server" style="font-family: 'Rubik Moonrocks', cursive;"><asp:HyperLink ID="SignUp" runat="server" NavigateUrl="~/Register.aspx">הירשם</asp:HyperLink></li>
+            <li id="SignInLi" runat="server" style="font-family: 'Rubik Moonrocks', cursive;"><asp:HyperLink ID="SignIn" runat="server" NavigateUrl="~/LogIn.aspx">התחבר</asp:HyperLink></li>
             <li id="HomePageLi" runat="server" style="font-family: 'Rubik Moonrocks', cursive;"><asp:HyperLink ID="HomePage" runat="server" NavigateUrl="~/HomePage.aspx">דף הבית</asp:HyperLink></li>
         </ul>
     </nav>

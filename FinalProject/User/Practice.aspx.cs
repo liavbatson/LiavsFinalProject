@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
-
+using System.Media;
 public partial class User_Practice : System.Web.UI.Page
 {
     List<Exercises> exs = new List<Exercises>();
@@ -188,11 +188,15 @@ public partial class User_Practice : System.Web.UI.Page
             {
                 labelColor.Text = "כל הכבוד! תשובה נכונה";
                 labelColor.ForeColor = Color.Green;
+                SoundPlayer splayer = new SoundPlayer(Server.MapPath("~/Audio/Correct-answer.wav"));
+                splayer.Play();
             }
             else
             {
                 labelColor.Text = "תשובה שגויה!";
                 labelColor.ForeColor = Color.Red;
+                SoundPlayer splayer = new SoundPlayer(Server.MapPath("~/Audio/Failure-trumpet-melody.wav"));
+                splayer.Play();
             }
         }
     }

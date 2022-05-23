@@ -18,7 +18,7 @@ public partial class User_ClassF_TopicsF : System.Web.UI.Page
     }
     protected void RedirectToLearningDecimalMeasurements(object sender, EventArgs e)
     {
-        Response.Redirect("~/User/ClassC/LearningDecimalMeasurements.aspx");
+        Response.Redirect("~/User/ClassF/LearningDecimalMeasurements.aspx");
     }
     protected void RedirectToPracticeVolumeOfASphere(object sender, EventArgs e)
     {
@@ -26,7 +26,7 @@ public partial class User_ClassF_TopicsF : System.Web.UI.Page
     }
     protected void RedirectToLearningVolumeOfASphere(object sender, EventArgs e)
     {
-        Response.Redirect("~/User/ClassC/LearningVolumeOfASphere.aspx");
+        Response.Redirect("~/User/ClassF/LearningVolumeOfASphere.aspx");
     }
     protected void RedirectToPracticeCircles(object sender, EventArgs e)
     {
@@ -34,7 +34,7 @@ public partial class User_ClassF_TopicsF : System.Web.UI.Page
     }
     protected void RedirectToLearningCircles(object sender, EventArgs e)
     {
-        Response.Redirect("~/User/ClassC/LearningCircles.aspx");
+        Response.Redirect("~/User/ClassF/LearningCircles.aspx");
     }
     protected void RedirectToPracticeVolumes(object sender, EventArgs e)
     {
@@ -42,6 +42,6 @@ public partial class User_ClassF_TopicsF : System.Web.UI.Page
     }
     protected void RedirectToLearningVolumes(object sender, EventArgs e)
     {
-        Response.Redirect("~/User/ClassC/LearningVolumes.aspx");
+        Response.Redirect("~/User/ClassF/LearningVolumes.aspx");
     }
 }

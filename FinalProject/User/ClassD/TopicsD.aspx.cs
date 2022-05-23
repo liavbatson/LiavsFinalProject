@@ -18,7 +18,7 @@ public partial class User_ClassD_TopicsD : System.Web.UI.Page
     }
     protected void RedirectToLearningShapes(object sender, EventArgs e)
     {
-        Response.Redirect("~/User/ClassC/LearningShapes.aspx");
+        Response.Redirect("~/User/ClassD/LearningShapes.aspx");
     }
     protected void RedirectToPracticeArea(object sender, EventArgs e)
     {
@@ -26,7 +26,7 @@ public partial class User_ClassD_TopicsD : System.Web.UI.Page
     }
     protected void RedirectToLearningArea(object sender, EventArgs e)
     {
-        Response.Redirect("~/User/ClassC/LearningArea.aspx");
+        Response.Redirect("~/User/ClassD/LearningArea.aspx");
     }
     protected void RedirectToPracticeBoxAndCube(object sender, EventArgs e)
     {
@@ -34,6 +34,6 @@ public partial class User_ClassD_TopicsD : System.Web.UI.Page
     }
     protected void RedirectToLearningBoxAndCube(object sender, EventArgs e)
     {
-        Response.Redirect("~/User/ClassC/LearningBoxAndCube.aspx");
+        Response.Redirect("~/User/ClassD/LearningBoxAndCube.aspx");
     }
 }

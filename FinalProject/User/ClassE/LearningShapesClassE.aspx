@@ -14,8 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
-            <img src="../../Images/E/Dots.png" /> <br />
             זהו סריג נקודות. <br />
+            <img src="../../Images/E/Dots.png" /> <br />     
             נתון הישר <span style="color:orange"> a </span> על סריג הנקודות. <br /><br />
             <img src="../../Images/E/DotsA.png" /> <br />
             איך נעביר ישר המאונך לישר <span style="color:orange"> a </span> ? <br />
@@ -57,7 +57,7 @@
             נתונה צורה א' : <br />
             <img src="../../Images/E/MoonA.png" /> <br />
             יש 3 צורות נוספות ב', ג' ו-ד'. <br />
-            <img src="../../Images/E/MoonB.png" /> <img src="../../Images/MoonC.png" /> <img src="../../Images/MoonD.png" /> <br />
+            <img src="../../Images/E/MoonB.png" /> <img src="../../Images/E/MoonC.png" /> <img src="../../Images/E/MoonD.png" /> <br />
             נשים את צורה א' על צורה ב' : <br />
             <img src="../../Images/E/MoonAonB.png" /> <br />
             הצורה מתאימה בדיוק. <br />
@@ -101,9 +101,9 @@
             <b> צלעות : </b> <br /> <b>*</b> בצורה א' כל הצלעות שוות זו לזו <br /> <b>*</b> בצורה ב' לא כל הצלעות שוות. <br />
             <b> זוויות : </b> <br />
             במצולע א' כל הזוויות שוות זו לזו. <br />
-            <img src="../../Images/E/HexaA2.png" /> <img src="../../Images/HexaA.png" /> <br />
+            <img src="../../Images/E/HexaA2.png" /> <img src="../../Images/E/HexaA.png" /> <br />
             במצולע ב' לא כל הזוויות שוות. <br />
-            <img src="../../Images/E/HexaB.png" /> <img src="../../Images/HexaB2.png" /> <br />
+            <img src="../../Images/E/HexaB.png" /> <img src="../../Images/E/HexaB2.png" /> <br />
             אז במה המצולעים דומים \ שונים ? <br />
             <b> <span style="color:#0082e6"> דומים : </span> <br />
                 שניהם מצולעים, משושים. <br />

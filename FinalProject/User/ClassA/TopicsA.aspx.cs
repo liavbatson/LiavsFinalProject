@@ -26,7 +26,7 @@ public partial class User_ClassA_TopicsA : System.Web.UI.Page
     }
     protected void RedirectToLearningGeometricShapes(object sender, EventArgs e)
     {
-        Response.Redirect("~/User/ClassA/LearningMeasurements.aspx");
+        Response.Redirect("~/User/ClassA/LearningGeometricShapes.aspx");
     }
     protected void RedirectToPracticeMirroringAndSimetric(object sender, EventArgs e)
     {

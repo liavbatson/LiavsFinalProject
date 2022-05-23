@@ -69,7 +69,7 @@
             מרובע זה נקרא <b> מקבילית. </b> <br />
             <span style="color:#0082e6"> במקבילית 2 זוגות של צלעות נגדיות מקבילות ושוות. </span> <br /><br />
             נצמיד את המשולשים לאורך הקו <span style="color:red"> האדום </span> <br />
-            <img src="../../Images/C/ColoredTriangle2.png" />
+            <img src="../../Images/C/ColoredTriangle2.png" /> <br />
             <span style="color:#0082e6"> משולש שווה שוקיים. הצלעות הכחולות שוות. </span> <br /><br />
             נסובב את המשולש העליון ונצמיד שוב את המשולשים לאורך הקו <span style="color:red"> האדום </span> <br />
             <img src="../../Images/C/Parallelogram3.png" /> <br />

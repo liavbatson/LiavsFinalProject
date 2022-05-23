@@ -18,7 +18,7 @@ public partial class User_ClassE_TopicsE : System.Web.UI.Page
     }
     protected void RedirectToLearningShapesClassE(object sender, EventArgs e)
     {
-        Response.Redirect("~/User/ClassC/LearningShapesClassE.aspx");
+        Response.Redirect("~/User/ClassE/LearningShapesClassE.aspx");
     }
     protected void RedirectToPracticeHeights(object sender, EventArgs e)
     {
@@ -26,7 +26,7 @@ public partial class User_ClassE_TopicsE : System.Web.UI.Page
     }
     protected void RedirectToLearningHeights(object sender, EventArgs e)
     {
-        Response.Redirect("~/User/ClassC/LearningHeights.aspx");
+        Response.Redirect("~/User/ClassE/LearningHeights.aspx");
     }
     protected void RedirectToPracticeAreaAndPerimeter(object sender, EventArgs e)
     {
@@ -34,6 +34,6 @@ public partial class User_ClassE_TopicsE : System.Web.UI.Page
     }
     protected void RedirectToLearningAreaAndPerimeter(object sender, EventArgs e)
     {
-        Response.Redirect("~/User/ClassC/LearningAreaAndPerimeter.aspx");
+        Response.Redirect("~/User/ClassE/LearningAreaAndPerimeter.aspx");
     }
 }

@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             כך נראה שעון מחוגים - <br />
             <img src="../../Images/B/Clock.png" /> <br />
             בשעון ניתן לראות שלושה דברים - <br />
@@ -37,6 +39,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             בתמונה הבאה המחוג הקצר מצביע בדיוק על <b> 9 .</b> <br />
             <img src="../../Images/B/Clock9.png" /> <br />
             בתמונה הבאה המחוג הקצר מצביע בדיוק על <b> 10 .</b> <br />
@@ -67,7 +71,7 @@
             מה קורה בתמונה הבאה ? <br />
             <img src="../../Images/B/Clock1200.png" /> <br />
             גם המחוג הקצר וגם המחוג הארוך מצביעים ביחד על 12. <br />
-            זה אומר שהשעה היא <b> 12:00 </b> בדיוק שתיים שערה. 
+            זה אומר שהשעה היא <b> 12:00 </b> בדיוק שתיים עשרה. 
         </p>
         <h1 style="font-family: 'montserrat', sans-serif; font-size:80px;color:#0082e6">
             קריאת שעון מחוגים ברבעי שעות
@@ -78,7 +82,9 @@
         </h1>
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
-            כשאר המחוג הגדול זז 3 מספרים, זה אומר שעברה רבע שעה. <br />
+            <asp:Button ID="PlayMeasurementsParaC" runat="server" OnClick="PlayParaC" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaC" runat="server" OnClick="StopParaC" class="audioButtonStop"/> <br />
+            כאשר המחוג הגדול זז 3 מספרים, זה אומר שעברה רבע שעה. <br />
             דוגמה לספירת רבעי שעות - <br />
             אם נתחיל בשעה 02:00 <br />
             <img src="../../Images/B/Clock0215.png" /> <br />

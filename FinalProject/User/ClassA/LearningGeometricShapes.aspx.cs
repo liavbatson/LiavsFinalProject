@@ -22,6 +22,7 @@ public partial class User_ClassA_LearningGeometricShapes : System.Web.UI.Page
         paraE = new SoundPlayer(Server.MapPath("~/Audio/A/GeometricShapesParaE.wav"));
         paraF = new SoundPlayer(Server.MapPath("~/Audio/A/GeometricShapesParaF.wav"));
     }
+    /* Play And Pause Para */
     protected void PlayParaA(object sender, EventArgs e)
     {
         paraA.Play();
@@ -70,8 +71,6 @@ public partial class User_ClassA_LearningGeometricShapes : System.Web.UI.Page
     {
         paraF.Stop();
     }
-    /* Play And Pause Para */
-
     /* Open And Close Para */
     protected void CloseFirstP(object sender, EventArgs e)
     {

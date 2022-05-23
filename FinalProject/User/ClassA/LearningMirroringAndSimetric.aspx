@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             <span style="color:#0082e6">שיקוף - </span>
             הוא העתקה של המישור, המוגדרת בעזרת ישר במישור, כך שכל נקודה במישור מועתקת אל "תמונת הראי" שלה ביחס לישר. <br />
             הישר הזה נקרא <b> קו שיקוף. </b> <br />
@@ -34,6 +36,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             לצורה יש <span style="color:#0082e6"> סימטריה שיקופית </span> אם קיים שיקוף שבו הצורה מועתקת על עצמה. <br />
             במקרה כזה קו השיקוף נקרא <b> <span style="color:#0082e6"> קו סימטריה. </span> </b> <br />
             <img src="../../Images/A/SimetricExplanation.png" /> <br />

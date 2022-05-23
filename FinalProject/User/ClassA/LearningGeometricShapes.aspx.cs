@@ -4,13 +4,75 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
+using System.Media;
 public partial class User_ClassA_LearningGeometricShapes : System.Web.UI.Page
 {
+    SoundPlayer paraA;
+    SoundPlayer paraB;
+    SoundPlayer paraC;
+    SoundPlayer paraD;
+    SoundPlayer paraE;
+    SoundPlayer paraF;
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        paraA = new SoundPlayer(Server.MapPath("~/Audio/A/GeometricShapesParaA.wav"));
+        paraB = new SoundPlayer(Server.MapPath("~/Audio/A/GeometricShapesParaB.wav"));
+        paraC = new SoundPlayer(Server.MapPath("~/Audio/A/GeometricShapesParaC.wav"));
+        paraD = new SoundPlayer(Server.MapPath("~/Audio/A/GeometricShapesParaD.wav"));
+        paraE = new SoundPlayer(Server.MapPath("~/Audio/A/GeometricShapesParaE.wav"));
+        paraF = new SoundPlayer(Server.MapPath("~/Audio/A/GeometricShapesParaF.wav"));
     }
+    protected void PlayParaA(object sender, EventArgs e)
+    {
+        paraA.Play();
+    }
+    protected void StopParaA(object sender, EventArgs e)
+    {
+        paraA.Stop();
+    }
+    protected void PlayParaB(object sender, EventArgs e)
+    {
+        paraB.Play();
+    }
+    protected void StopParaB(object sender, EventArgs e)
+    {
+        paraB.Stop();
+    }
+    protected void PlayParaC(object sender, EventArgs e)
+    {
+        paraC.Play();
+    }
+    protected void StopParaC(object sender, EventArgs e)
+    {
+        paraC.Stop();
+    }
+    protected void PlayParaD(object sender, EventArgs e)
+    {
+        paraD.Play();
+    }
+    protected void StopParaD(object sender, EventArgs e)
+    {
+        paraD.Stop();
+    }
+    protected void PlayParaE(object sender, EventArgs e)
+    {
+        paraE.Play();
+    }
+    protected void StopParaE(object sender, EventArgs e)
+    {
+        paraE.Stop();
+    }
+    protected void PlayParaF(object sender, EventArgs e)
+    {
+        paraF.Play();
+    }
+    protected void StopParaF(object sender, EventArgs e)
+    {
+        paraF.Stop();
+    }
+    /* Play And Pause Para */
+
+    /* Open And Close Para */
     protected void CloseFirstP(object sender, EventArgs e)
     {
         firstP.Style.Add("display", "none");

@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             <span style="color:#0082e6">קטע -</span>
             לקטע יש 2 קצוות. <br />
             נצייר קו ישר המוגבל על ידי 2 נקודות: <br />
@@ -48,6 +50,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             <span style="color:#0082e6">מצולע - </span>הוא <b> קו שבור סגור.</b>  <br />
             לכל צד של המצולע קוראים<b> צלע.</b>  <br />כל מצולע בנוי מ<b>צלעות.</b>  <br />
             שם המצולע מתאים למספר הצלעות שלו.  <br />
@@ -65,6 +69,8 @@
         </h1>
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaC" runat="server" OnClick="PlayParaC" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaC" runat="server" OnClick="StopParaC" class="audioButtonStop"/> <br />
             לכל מצולע יש <b>קודקודים -</b> <br /> <b>קודקוד </b>הוא המפגש שבין שתי צלעות.  <br />
             <span style="color:#0082e6">למשולש - </span> יש 3 קודקודים. <img src="../../Images/A/TriangularWithVertices.png" />  <br />
             <span style="color:#0082e6">למרובע - </span> יש 4 קודקודים. <img src="../../Images/A/RectangleWithVertices.png" />  <br />
@@ -79,6 +85,8 @@
         </h1>
         <br />
         <p runat="server" id="fourthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaD" runat="server" OnClick="PlayParaD" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaD" runat="server" OnClick="StopParaD" class="audioButtonStop"/> <br />
             כל שתי צלעות שנפגשות בקודקוד יוצרות
             <b> <span style="color:#0082e6"> זווית.</span> </b> <br />
             כבר למדנו על מספר מצולעים - <span style="color:#0082e6">משולש | מרובע | מחומש</span>  <br />
@@ -98,6 +106,8 @@
         </h1>
         <br />
         <p runat="server" id="fifthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaE" runat="server" OnClick="PlayParaE" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaE" runat="server" OnClick="StopParaE" class="audioButtonStop"/> <br />
             <span style="color:#0082e6">אלכסון - </span>
             הוא <b> קטע </b> המחבר בין שני <b> קודקודים </b> של <b> מצולע </b> שאינם נמצאים על <b> צלע </b> אחת. <br />
             <b> במשולש אין אלכסונים ! </b> <br /> נראה אלכסונים במצולעים - <span style="color:#0082e6"> מרובע ומחומש.</span> <br />
@@ -114,6 +124,8 @@
         </h1>
         <br />
         <p runat="server" id="sixthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaF" runat="server" OnClick="PlayParaF" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaF" runat="server" OnClick="StopParaF" class="audioButtonStop"/> <br />
             מהו היקף של צורה ? <br /> <span style="color:#0082e6"> היקף של צורה - </span> אורך הקו המגביל את הצורה. <br />
             <b> היקף יש רק לצורה סגורה ! </b> <br /> <span style="color:#0082e6"> היקף המצולע - </span> סכום אורכי הצלעות המרכיבות אותו. <br />
             נראה דוגמה להיקף של מרובע - <br /> <img src="../../Images/A/PerimeterExample.png" /> <br />

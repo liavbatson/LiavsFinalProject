@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             <b> <span style="color:#0082e6">היקף</span> </b> <br />
             <span style="color:#0082e6">היקף של מצולע - </span> הוא סכום אורכי הצלעות שלו. <br />
             נסתכל על הצורות הבאות - <br />
@@ -45,6 +47,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             <b> <span style="color:#0082e6">ריבוע - חישוב שטח והיקף</span> </b> <br />
             <span style="color:#0082e6">ריבוע </span> הוא מרובע שבו כל הצלעות שוות באורכן וכל הזוויות שוות ל - 90 . <br />
             מהו <span style="color:#0082e6"> היקף </span> הריבוע שאורכו 3 ס"מ ? <br />
@@ -78,6 +82,8 @@
         </h1>
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaC" runat="server" OnClick="PlayParaC" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaC" runat="server" OnClick="StopParaC" class="audioButtonStop"/> <br />
             <b> גופים הנדסיים הם צורות גיאומטריות תלת מימדיות. </b> <br />
             בגוף, דופן שהיא מצולע נקראת פאה. <br />
             קו החיבור של כל זוג פאות בגוף נקרא <span style="color:#0082e6"> צלע. </span> <br />
@@ -164,6 +170,8 @@
         </h1>
         <br />
         <p runat="server" id="fourthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaD" runat="server" OnClick="PlayParaD" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaD" runat="server" OnClick="StopParaD" class="audioButtonStop"/> <br />
             <b> <span style="color:#0082e6">גליל</span> </b> <br />
             זהו גליל - <br />
             <img src="../../Images/B/Cylinder.png" /> <br />

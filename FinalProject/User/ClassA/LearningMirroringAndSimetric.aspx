@@ -17,12 +17,12 @@
             <span style="color:#0082e6">שיקוף - </span>
             הוא העתקה של המישור, המוגדרת בעזרת ישר במישור, כך שכל נקודה במישור מועתקת אל "תמונת הראי" שלה ביחס לישר. <br />
             הישר הזה נקרא <b> קו שיקוף. </b> <br />
-            <img src="../../Images/MirroringExplanation.png" /> <br />
+            <img src="../../Images/A/MirroringExplanation.png" /> <br />
             קו שיקוף הוא מקום הנחת המראה. <br />
             <b> דוגמאות - </b> <br />
-            <img src="../../Images/Mirroring.png" /> <br />
+            <img src="../../Images/A/Mirroring.png" /> <br />
             אם נשים את הידיים אחת ליד השנייה נראה שיקוף : <br />
-            <img src="../../Images/Hands.png" /> <br />
+            <img src="../../Images/A/Hands.png" /> <br />
             הידיים שלנו מייצרות "תמונת ראי".
         </p>
         <h1 style="font-family: 'montserrat', sans-serif; font-size:80px;color:#0082e6">
@@ -36,13 +36,13 @@
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
             לצורה יש <span style="color:#0082e6"> סימטריה שיקופית </span> אם קיים שיקוף שבו הצורה מועתקת על עצמה. <br />
             במקרה כזה קו השיקוף נקרא <b> <span style="color:#0082e6"> קו סימטריה. </span> </b> <br />
-            <img src="../../Images/SimetricExplanation.png" /> <br />
+            <img src="../../Images/A/SimetricExplanation.png" /> <br />
             <b>שימו לב !</b> <br /> לצורה יכולה להיות כמה קווי סימטריה. <br />
             בדוגמה הבאה יש 2 קווי סימטריה - <br />
-            <img src="../../Images/TwoSimetricLines.png" /> <br />
+            <img src="../../Images/A/TwoSimetricLines.png" /> <br />
             <b> הסבר קצר : </b> <br />
             בצורה סימטרית - כשמניחים את המראה על קו הסימטריה, רואים את אותה הצורה בדיוק. <br />
-            <img src="../../Images/SimetricExamples.png" />
+            <img src="../../Images/A/SimetricExamples.png" />
         </p>
     </center>
 </asp:Content>

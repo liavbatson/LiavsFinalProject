@@ -15,25 +15,25 @@
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
             לפנינו תיבה : <br />
-            <img src="../../Images/Box3.png" /> <br />
+            <img src="../../Images/D/Box3.png" /> <br />
             כל דופן של התיבה היא בצורת מלבן (זוכרים ? גם ריבוע הוא מלבן), הדופן בתיבה נקראת פאה. <br />
             נתבונן בכל הפאות ונראה כי לכל פאה יש פאה חופפת (בדיוק אותה צורה הנמצאת במישור מקביל). <br />
             לפאה <span style="color:red"> האדומה </span> יש פאה מתאימה - הדופן האחורי של התיבה : <br />
-            <img src="../../Images/BoxRed.png" /> <br />
+            <img src="../../Images/D/BoxRed.png" /> <br />
             לפאה <span style="color:green"> הירוקה </span> יש פאה מתאימה - הדופן השמאלי של התיבה : <br />
-            <img src="../../Images/BoxGreen.png" /> <br />
+            <img src="../../Images/D/BoxGreen.png" /> <br />
             לפאה <span style="color:#0082e6"> הכחולה </span> יש פאה מתאימה - הדופן התחתון של התיבה : <br />
-            <img src="../../Images/BoxBlue.png" /> <br />
+            <img src="../../Images/D/BoxBlue.png" /> <br />
             כמה פאות יש לתיבה בסך הכל ? <br />
             2 <span style="color:red"> אדומות </span> + 2 <span style="color:green"> ירוקות </span> + 2 <span style="color:#0082e6"> כחולות </span> = 6 פאות <br /><br />
             מפגש שתי פאות בתיבה נקרא <b> צלע </b> או <b> מקצוע. </b> <br />
             כמה מקצועות יש בתיבה ? <br />
-            <img src="../../Images/Box4.png" /> <br />
+            <img src="../../Images/D/Box4.png" /> <br />
             <span style="color:red"> 4 מקצועות בפאה העליונה </span> + <span style="color:green"> 4 מקצועות בפאה התחתונה </span> +
             <span style="color:#0082e6"> 4 מקצועות מסביב </span> = 12 מקצועות (או צלעות) סך הכל <br /><br />
             פינה של תיבה היא מפגש של 3 מקצועות (צלעות). כל פינה נקראת <b> קודקוד. </b> <br />
             כמה קודקודים יש לתיבה ? <br />
-            <img src="../../Images/BoxVertexes.png" /> <br />
+            <img src="../../Images/D/BoxVertexes.png" /> <br />
             <span style="color:red"> 4 קודקודים למעלה </span> + <span style="color:green"> 4 קודקודים למטה </span> = 8 קודקודים סך הכל <br /><br />
             <b> <span style="color:#0082e6"> סיכום : </span> </b> <br />
             <b> בתיבה יש  6 פאות , 12 מקצועות , 8 קודקודים </b>
@@ -47,7 +47,7 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
-            <img src="../../Images/BoxAndCube.png" /> <br />
+            <img src="../../Images/D/BoxAndCube.png" /> <br />
             במה התיבה והקוביה דומות ובמה הן שונות ? <br />
             <b> מספר הפאות : </b> <br />
             <span style="color:green"> לתיבה 6 פאות. </span> <br />
@@ -85,41 +85,41 @@
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
             זו פריסה של תיבה : <br />
-            <img src="../../Images/BoxSpread.png" /> <br />
+            <img src="../../Images/D/BoxSpread.png" /> <br />
             נבנה תיבה לפי הקיפולים. <br />
             נצבע כל זוג צלעות שיתחברו בעת הקיפול ובניית התיבה. <br />
-            <img src="../../Images/BoxSpread2.png" /> <br />
+            <img src="../../Images/D/BoxSpread2.png" /> <br />
             נקפל את הרצועה הארוכה על פי הסימונים ונחבר את שתי הצלעות האדומות. <br />
             נקפל את המלבן שרשום עליו 1 ונחבר כל צלע שלו לצלע המתאימה לו על פי הצבע. <br />
             נעשה את אותו הדבר למלבן שרשום עליו 2. <br />
             קיבלנו תיבה : <br />
-            <img src="../../Images/Box3.png" /> <br /><br />
+            <img src="../../Images/D/Box3.png" /> <br /><br />
             על מנת שהפריסה תהיה של תיבה חייבים להתקיים בה <b> 2 תנאים : </b> <br />
             <b>*</b> יהיו בה 6 מלבנים, כשאר כל 2 מהם זהים (3 זוגות של מלבנים זהים-חופפים). <br />
             <b>**</b> כל צלע מתחברת לצלע המתאימה לה באורכה. <br />
             אם שני התנאים מתקיימים אפשר לקפל ולהצמיד צלעות מתאימות ולבדוק אם אכן זו פריסה של תיבה. <br /><br />
-            <img src="../../Images/BoxSpread.png" /> <br />
+            <img src="../../Images/D/BoxSpread.png" /> <br />
             נבדוק את התנאים בפריסה זו. <br />
             נצבע את המלבנים החופפים : <br />
-            <img src="../../Images/BoxColoredSpread.png" /> <br />
+            <img src="../../Images/D/BoxColoredSpread.png" /> <br />
             האם יש 3 זוגות של מלבנים חופפים ? כן, התנאי מתקיים. <br />
             האם כל צלע מתחברת לצלע המתאימה לה ? בשרטוט הקודם צבענו את הצלעות וראינו שהתנאי אכן מתקיים. <br />
             כאשר קיפלנו ראינו <b> שהתקבלה תיבה. </b> <br /><br />
-            <img src="../../Images/BoxSpread3.png" /> <br />
+            <img src="../../Images/D/BoxSpread3.png" /> <br />
             האם זו פריסה של תיבה ? נבדוק אם התנאים מתקיימים. <br />
-            <img src="../../Images/BoxColoredSpread2.png" /> <br />
+            <img src="../../Images/D/BoxColoredSpread2.png" /> <br />
             האם יש 6 מלבנים, מתוכם 3 זוגות של מלבנים חופפים ? כן, תנאי זה מתקיים. <br />
             האם לכל צלע יש צלע באורך מתאים שתתחבר אליה ? <br />
-            <img src="../../Images/BoxColoredSpread3.png" /> <br />
+            <img src="../../Images/D/BoxColoredSpread3.png" /> <br />
             אפשר לראות מיד שהצלעות צריכות להתחבר והן לא באורכים מתאימים. <br />
             כאשר נקפל את המלבנים ונרצה לחבר צלעות אלה, לא נוכל לחבר בניהן, מכיוון שהן לא שוות. <br />
             <b> זו אינה פריסה של תיבה. </b> <br /><br />
-            <img src="../../Images/BoxSpread4.png" /> <br />
+            <img src="../../Images/D/BoxSpread4.png" /> <br />
             האם זו פריסה של תיבה ? נבדוק אם התנאים מתקיימים. <br />
             האם יש 6 מלבנים, מתוכם 3 זוגות של מלבנים חופפים ? כן, תנאי זה מתקיים. למעשה, כל המלבנים הם ריבועים חופפים. <br />
             האם לכל צלע יש צלע באורך מתאים שתתחבר אליה ? כן התנאי מתקיים, כל הצלעות שוות. <br />
             נקפל לפי הקווים ונראה שזו <b> פריסה של תיבה. </b> ליתר דיוק זוהי <b> פריסה של קוביה. </b> <br /><br />
-            <img src="../../Images/BoxSpread5.png" /> <br />
+            <img src="../../Images/D/BoxSpread5.png" /> <br />
             האם זו פריסה של תיבה ? נבדוק אם התנאים מתקיימים. <br />
             האם יש 6 מלבנים, מתוכם 3 זוגות של מלבנים חופפים ? כן, תנאי זה מתקיים. <br />
             האם לכל צלע יש צלע באורך מתאים שתתחבר אליה ? כן התנאי מתקיים. כל הצלעות שוות <br />
@@ -136,26 +136,26 @@
         <br />
         <p runat="server" id="fourthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
             לפנינו שרטוט של תיבה : <br />
-            <img src="../../Images/Box5.png" /> <br />
+            <img src="../../Images/D/Box5.png" /> <br />
             נעביר ישר בין קודקוד <span style="color:red"> B </span> לקודקוד <span style="color:red"> H </span> <br />
-            <img src="../../Images/BoxLetters.png" /> <br />
+            <img src="../../Images/D/BoxLetters.png" /> <br />
             קטע מישר זה עובר כולו בתוך התיבה. קטע זה נקרא <b> אלכסון בתיבה. </b> <br />
             האם יש עוד אלכסונים בתיבה ? <br />
             כן, נוסיף קטע מ-A ל-G <br />
-            <img src="../../Images/BoxLetters2.png" /> <br />
+            <img src="../../Images/D/BoxLetters2.png" /> <br />
             גם הקטע מקודקוד F לקודקוד D והקטע מקודקוד E לקודקוד C הם אלכסונים בתיבה. <br />
-            <img src="../../Images/BoxLetters3.png" /> <br />
+            <img src="../../Images/D/BoxLetters3.png" /> <br />
             כל אלכסון בתיבה הוא ישר המחבר 2 קודקודים שאינם נמצאים על אותה פאה. <br /><br />
-            <img src="../../Images/BoxLetters4.png" /> <br />
+            <img src="../../Images/D/BoxLetters4.png" /> <br />
             הקטע המחבר את קוקוד B עם קודקוד G הוא אלכסון. <br />
             אלכסון זה אינו עובר בתוך התיבה, אלא נמצא על הפאה שקודקודיה הם BFGC. לכן הוא אלכסון בפאה. <br />
             כל קטע מחבר 2 קודקודים שנמצאים <b> על אותה פאה </b> הוא אלכסון בפאה. <br />
             הקטע AC הוא גם אלכסון בפאה. הוא אלכסון בפאה שקודקודיה ABCD. <br />
-            <img src="../../Images/BoxLetters5.png" /> <br /><br />
+            <img src="../../Images/D/BoxLetters5.png" /> <br /><br />
             <b> האם אפשר להעביר עוד אלכסון בפאה ? </b> <br />
             כן. הקטע DG או הקטע CH יהיו אלכסונים בפאה שקודקודיה הם CGHD. <br /><br />
             אלכסון בתיבה ייראה תמיד בפריסה של התיבה. נציג את הפריסה של התיבה שמלמעלה. <br />
-            <img src="../../Images/BoxLettersSpread.png" /> <br />
+            <img src="../../Images/D/BoxLettersSpread.png" /> <br />
             <b> אלכסון בתיבה : </b> קטע המחבר שני קודקודים שאינם על אותה פאה. <br />
             אלכסון בתיבה עובר כולו בתוך התיבה. <br />
             <b> אלכסון בפאה : </b> קטע המחבר שני קודקודים הנמצאים על אותה פאה. <br />
@@ -171,27 +171,27 @@
         <br />
         <p runat="server" id="fifthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
             לפנינו תיבה : <br />
-            <img src="../../Images/BoxVolume.png" /> <br />
+            <img src="../../Images/D/BoxVolume.png" /> <br />
             לבסיס צורת מלבן שאורכו <span style="color:orange"> 6 ס"מ </span> ורוחבו <span style="color:blue"> 2 ס"מ </span> <br />
             נחשב את הנפח בעזרת קוביה שצלעה 1 ס"מ. <br />
-            <img src="../../Images/BoxVol.png" /> נפח הקוביה הוא 1 ס"מ מעוקב או בקיצור <b> 1 סמ"ק </b> <br />
+            <img src="../../Images/D/BoxVol.png" /> נפח הקוביה הוא 1 ס"מ מעוקב או בקיצור <b> 1 סמ"ק </b> <br />
             נפח התיבה יהיה מספר הקוביות שיכנסו לתוך התיבה. <br />
-            <img src="../../Images/4X6X2.png" /> <br />
+            <img src="../../Images/D/4X6X2.png" /> <br />
             בשכבה אחת יכנסו 2 * 6 = 12 קוביות של 1 סמ"ק. <br />
             אם הגובה הוא 4 ס"מ, כמה שכבות כאלה ניתן להכניס לקוביה ? 4 שכבות כאלה. <br />
-            <img src="../../Images/4X6X2II.png" /> <br />
+            <img src="../../Images/D/4X6X2II.png" /> <br />
             לכן, מספר הקוביות שיכנסו לתוך התיבה הוא <b> 4 * 12 = 48 סמ"ק </b> <br />
             נפח התיבה הוא <b> 48 סמ"ק </b> <br /><br />
             נשחזר איך התקבל המספר 48 : <br />
-            <img src="../../Images/BoxVolume.png" /> <br />
+            <img src="../../Images/D/BoxVolume.png" /> <br />
             זוהי מכפלת המידות של התיבה - <br />
             <b> 6 * 2 * 4 = 48 סמ"ק </b> <br /><br />
             ניקח קודקוד, ונצביע על שלוש הצלעות שיוצאות מקודקוד זה. <br />
-            <img src="../../Images/BoxVolume2.png" /> <br />
+            <img src="../../Images/D/BoxVolume2.png" /> <br />
             במקרה שלנו הן : 6 ס"מ, 2 ס"מ ו-4 ס"מ. <br />
             מכפלת המידות של צלעות אלה היא נפח התיבה. <br /><br />
             מהו נפח קוביה שצלעה 5 מטר ? <br />
-            <img src="../../Images/CubeVol.png" /> <br />
+            <img src="../../Images/D/CubeVol.png" /> <br />
             נבחר קודקוד ונסמן את 3 הצלעות היוצאות מקודקוד זה. <br />
             נפח הקוביה יהיה מכפלת הצלעות - <br />
             <b> 5 * 5 * 5 = 125 מ"ק </b> <br />
@@ -210,33 +210,33 @@
         <br />
         <p runat="server" id="sixthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
             נתונה תיבה : <br />
-            <img src="../../Images/Box6.png" /> <br />
+            <img src="../../Images/D/Box6.png" /> <br />
             פריסת התיבה נראית כך : <br />
-            <img src="../../Images/Box6Spread.png" /> <br />
+            <img src="../../Images/D/Box6Spread.png" /> <br />
             מהפריסה התקבלו - <br />
             <span style="color:orange"> שני בסיסים </span> מלבנים שמידותיהם 5 ס"מ ו-7 ס"מ <span style="color:#0082e6"> ומלבן </span>
             נוסף, שצלעו האחת שווה לגובה התיבה (10 ס"מ) וצלעו השנייה באורך היקף הבסיס (5
             +5+7+7=24). <br />
             <b> שטח הפריסה = שטח הפנים </b> <br />
             <b> שטח <span style="color:orange"> שני הבסיסים </span> + שטח <span style="color:#0082e6"> המלבן </span> = שטח הפנים. </b> <br />
-            <img src="../../Images/Calc.png" /> <br />
+            <img src="../../Images/D/Calc.png" /> <br />
             <span style="color:#0082e6"> תשובה : </span> שטח הפנים של התיבה הוא <b> 310 סמ"ק </b> <br /><br />
             <b> דרך אחרת לחישוב שטח פנים - </b> <br />
-            <img src="../../Images/Box7.png" /> <br />
+            <img src="../../Images/D/Box7.png" /> <br />
             בשטח הפנים יש 2 פאות <span style="color:orange"> כתומות </span> (למעלה ולמטה). <br />
             מידות כל פאה (כל מלבן) הן 5 ס"מ ו-7 ס"מ. <br />
-            <img src="../../Images/Calc2.png" /> <br /><br />
-            <img src="../../Images/Box8.png" /> <br />
+            <img src="../../Images/D/Calc2.png" /> <br /><br />
+            <img src="../../Images/D/Box8.png" /> <br />
             2 פאות <span style="color:#0082e6"> כחולות </span> (קדמית ואחורית). <br />
             מידות כל פאה (כל מלבן) הן 10 ס"מ ו-5 ס"מ. <br />
-            <img src="../../Images/Calc3.png" /> <br /><br />
-            <img src="../../Images/Box9.png" /> <br />
+            <img src="../../Images/D/Calc3.png" /> <br /><br />
+            <img src="../../Images/D/Box9.png" /> <br />
             2 פאות <span style="color:green"> ירוקות </span> (ימנית ושמאלית). <br />
             מידות כל פאה (כל מלבן) הן 7 ס"מ ו-10 ס"מ. <br />
-            <img src="../../Images/Calc4.png" /> <br /><br />
-            <img src="../../Images/Calc5.png" /> <br /><br />
+            <img src="../../Images/D/Calc4.png" /> <br /><br />
+            <img src="../../Images/D/Calc5.png" /> <br /><br />
             מה יהיה שטח הפנים של קוביה שצלעה 6 ס"מ ? <br />
-            <img src="../../Images/CubeSix.png" /> <br />
+            <img src="../../Images/D/CubeSix.png" /> <br />
             בקוביה כל הפאות הן ריבועים שצלעם 6 ס"מ. <br />
             בקוביה 6 ריבועים חופפים. <br />
             <b> שטח הפנים = 6 ס"מ * 6 ס"מ * 6 ס"מ = 216 סמ"ר </b> <br />
@@ -256,33 +256,33 @@
             פי כמה גדול <span style="color:red"> נפח </span> הקוביה החדשה <span style="color:red"> מנפח </span> הקוביה המקורית ? <br />
             פי כמה גדול <span style="color:#0082e6"> שטח הפנים </span> של הקוביה החדשה <span style="color:#0082e6"> משטח הפנים </span> של הקוביה המקורית <br />
             נחשב את <span style="color:red"> הנפח </span> ואת <span style="color:#0082e6"> שטח הפנים </span> של קוביה שאורך צלעה 5 ס"מ. <br />
-            <img src="../../Images/Calc6.png" /> <br />
+            <img src="../../Images/D/Calc6.png" /> <br />
             צלע הקוביה החדשה תהיה 10 ס"מ. <br />
             <span style="color:red"> נפח </span> הקוביה החדשה : <br />
-            <img src="../../Images/Calc7.png" /> <br />
+            <img src="../../Images/D/Calc7.png" /> <br />
             פי כמה גדול <span style="color:red"> נפח </span> הקוביה החדשה <span style="color:red"> מנפח </span> הקוביה המקורית ? <br />
             <b> 1000 סמ"ק : 125 סמ"ק = 8 </b> <br />
             פי כמה גדול <span style="color:#0082e6"> שטח הפנים </span> של הקוביה החדשה <span style="color:#0082e6"> משטח הפנים </span> של הקוביה המקורית ? <br />
             <b> 600 סמ"ר : 150 סמ"ר = 4 </b> <br />
             <span style="color:red"> הנפח </span> גדל פי 4 , <span style="color:#0082e6"> שטח הפנים </span> גדל פי 8. <br />
             ניתן יהיה לראות פי כמה גדל <span style="color:red"> הנפח </span> אם במקום אורך הצלע 10 נכתוב 2*5 <br />        
-            <img src="../../Images/Calc8.png" /> <br />
+            <img src="../../Images/D/Calc8.png" /> <br />
             <b> <span style="color:red"> נפח </span> הקוביה החדשה גדול פי 8 <span style="color:red"> מנפח </span> הקוביה המקורית. </b> <br /><br />
             אותו דבר נצבע עבור <span style="color:#0082e6"> שטח הפנים </span> <br />
             ניתן יהיה לראות פי כמה גדל <span style="color:#0082e6"> שטח הפנים </span> אם במקום אורך הצלע 10 נכתוב 2*5 <br />
-            <img src="../../Images/Calc9.png" /> <br />
+            <img src="../../Images/D/Calc9.png" /> <br />
             <b> <span style="color:#0082e6"> שטח הפנים </span> הקוביה החדשה גדול פי 4 <span style="color:#0082e6"> משטח הפנים </span> הקוביה המקורית. </b> <br /><br />
             הגדילו פי 2 את צלעות תיבה שמידותיה הן : 5 ס"מ, 4 ס"מ ו-8 ס"מ. <br />
             כל צלע גדלה פי 2 - צלע של 5 ס"מ תהיה באורך של 10 ס"מ. צלע של 4 ס"מ תהיה באורך של 8 ס"מ. צלע של 8 ס"מ תהיה באורך של 16 ס"מ. <br />
             נחשב מהו <span style="color:red"> נפח </span> התיבה המקורית : <br />
-            <img src="../../Images/Calc10.png" /> <br />
+            <img src="../../Images/D/Calc10.png" /> <br />
             נחשב מהו <span style="color:#0082e6"> שטח הפנים </span> של התיבה המקורית : <br />
-            <img src="../../Images/Calc11.png" /> <br />
+            <img src="../../Images/D/Calc11.png" /> <br />
             נחשב פי כמה <span style="color:red"> נפח </span> התיבה החדשה גדול <span style="color:red"> מנפח </span> התיבה המקורית : <br />
-            <img src="../../Images/Calc12.png" /> <br />
+            <img src="../../Images/D/Calc12.png" /> <br />
             <span style="color:red"> נפח </span> התיבה החדשה גדול פי 8 <span style="color:red"> מנפח </span> התיבה המקורית. <br />
             נחשב פי כמה <span style="color:#0082e6"> שטח הפנים </span> התיבה החדשה גדול <span style="color:#0082e6"> משטח הפנים </span> התיבה המקורית : <br />
-            <img src="../../Images/Calc13.png" /> <br />
+            <img src="../../Images/D/Calc13.png" /> <br />
             <span style="color:#0082e6"> שטח הפנים </span> של התיבה החדשה גדול פי 8 <span style="color:#0082e6"> משטח הפנים </span> של התיבה המקורית. <br /><br />
             <b> <span style="color:#0082e6"> סיכום : </span> </b> <br />
             אם מגדילים כל אחת מצלעות התיבה או הקוביה פי 2 אז הנפח יגדל פי 8. <br />

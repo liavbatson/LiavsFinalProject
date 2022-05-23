@@ -15,13 +15,13 @@
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
             <span style="color:#0082e6">נפח התיבה</span><br />
-            <img src="../../Images/Fgrade_img/volsq_a.png" width="800" height="700" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volsq_b.png" width="800" height="700" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volsq_c.png" width="300" height="50" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volsq_d.png" width="300" height="100" /> <br />
-            <img src="../../Images/Fgrade_img/volsq_e.png" width="400" height="100" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volsq_f.png" width="600" height="200" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volsq_g.png" width="700" height="500" /> <br /><br />
+            <img src="../../Images/F/volsq_a.png" width="800" height="700" /> <br /><br />
+            <img src="../../Images/F/volsq_b.png" width="800" height="700" /> <br /><br />
+            <img src="../../Images/F/volsq_c.png" width="300" height="50" /> <br /><br />
+            <img src="../../Images/F/volsq_d.png" width="300" height="100" /> <br />
+            <img src="../../Images/F/volsq_e.png" width="400" height="100" /> <br /><br />
+            <img src="../../Images/F/volsq_f.png" width="600" height="200" /> <br /><br />
+            <img src="../../Images/F/volsq_g.png" width="700" height="500" /> <br /><br />
             
         </p></div>
         <div>
@@ -35,9 +35,9 @@
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
              <span style="color:#0082e6">הגדלת מימדים של גופים </span> <br />
-            <img src="../../Images/Fgrade_img/volsize_a.png" width="800" height="800" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volsize_b.png" width="800" height="800" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volsize_c.png" width="800" height="400" /> <br /><br /><br /><br />
+            <img src="../../Images/F/volsize_a.png" width="800" height="800" /> <br /><br />
+            <img src="../../Images/F/volsize_b.png" width="800" height="800" /> <br /><br />
+            <img src="../../Images/F/volsize_c.png" width="800" height="400" /> <br /><br /><br /><br />
         </p></div>
         <div>
         <h1 style="font-family: 'montserrat', sans-serif; font-size:80px;color:#0082e6">
@@ -50,14 +50,14 @@
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
             <span style="color:#0082e6">חישוב שטח פנים של תיבה </span><br />
-            <img src="../../Images/Fgrade_img/vosq_a.png" width="600" height="400" /> <br /><br />
-            <img src="../../Images/Fgrade_img/vosq_b.png" width="600" height="400" /> <br /><br />
-            <img src="../../Images/Fgrade_img/vosq_c.png" width="600" height="100" /> <br /><br />
-            <img src="../../Images/Fgrade_img/vosq_d.png" width="600" height="400" /> <br /><br />
-            <img src="../../Images/Fgrade_img/vosq_e.png" width="600" height="400" /> <br /><br />
-            <img src="../../Images/Fgrade_img/vosq_f.png" width="600" height="400" /> <br /><br />
-            <img src="../../Images/Fgrade_img/vosq_g.png" width="600" height="400" /> <br /><br />
-            <img src="../../Images/Fgrade_img/vosq_h.png" width="600" height="400" /> <br /><br />
+            <img src="../../Images/F/vosq_a.png" width="600" height="400" /> <br /><br />
+            <img src="../../Images/F/vosq_b.png" width="600" height="400" /> <br /><br />
+            <img src="../../Images/F/vosq_c.png" width="600" height="100" /> <br /><br />
+            <img src="../../Images/F/vosq_d.png" width="600" height="400" /> <br /><br />
+            <img src="../../Images/F/vosq_e.png" width="600" height="400" /> <br /><br />
+            <img src="../../Images/F/vosq_f.png" width="600" height="400" /> <br /><br />
+            <img src="../../Images/F/vosq_g.png" width="600" height="400" /> <br /><br />
+            <img src="../../Images/F/vosq_h.png" width="600" height="400" /> <br /><br />
 
             
         </p></div>
@@ -71,15 +71,15 @@
         </h1>
         <br />
         <p runat="server" id="fourthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
-            <img src="../../Images/Fgrade_img/volmn_a.png" width="500" height="400" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volmn_b.png" width="600" height="300" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volmn_c.png" width="600" height="300" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volmn_d.png" width="600" height="400" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volmn_e.png" width="200" height="200" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volmn_f.png" width="400" height="200" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volmn_g.png" width="600" height="400" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volmn_h.png" width="600" height="400" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volmn_i.png" width="600" height="400" /> <br /><br />
+            <img src="../../Images/F/volmn_a.png" width="500" height="400" /> <br /><br />
+            <img src="../../Images/F/volmn_b.png" width="600" height="300" /> <br /><br />
+            <img src="../../Images/F/volmn_c.png" width="600" height="300" /> <br /><br />
+            <img src="../../Images/F/volmn_d.png" width="600" height="400" /> <br /><br />
+            <img src="../../Images/F/volmn_e.png" width="200" height="200" /> <br /><br />
+            <img src="../../Images/F/volmn_f.png" width="400" height="200" /> <br /><br />
+            <img src="../../Images/F/volmn_g.png" width="600" height="400" /> <br /><br />
+            <img src="../../Images/F/volmn_h.png" width="600" height="400" /> <br /><br />
+            <img src="../../Images/F/volmn_i.png" width="600" height="400" /> <br /><br />
         </p></div>
         <div>
         <h1 style="font-family: 'montserrat', sans-serif; font-size:80px;color:#0082e6">
@@ -91,13 +91,11 @@
         </h1>
         <br />
         <p runat="server" id="fifthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
-            <img src="../../Images/Fgrade_img/volpir_a.png" width="500" height="400" /> <br /><br />
-            <img src="../../Images/Fgrade_img/volpir_b.png" width="500" height="400" /> <br /><br />
+            <img src="../../Images/F/volpir_a.png" width="500" height="400" /> <br /><br />
+            <img src="../../Images/F/volpir_b.png" width="500" height="400" /> <br /><br />
             <strong>נפח המנסרה המרובעת הוא : 60 סמ"ק.</strong><br /><br /><br />
-            <img src="../../Images/Fgrade_img/volpir_c.png" width="500" height="400" /> <br /><br />
+            <img src="../../Images/F/volpir_c.png" width="500" height="400" /> <br /><br />
             <strong>נפח הפירמידה המרובעת הוא : 20 סמ"ק.</strong><br /><br /><br />
-            
-            
         </p></div>
     </center>
 </asp:Content>

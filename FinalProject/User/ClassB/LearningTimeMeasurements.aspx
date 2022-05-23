@@ -15,7 +15,7 @@
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
             כך נראה שעון מחוגים - <br />
-            <img src="../../Images/Clock.png" /> <br />
+            <img src="../../Images/B/Clock.png" /> <br />
             בשעון ניתן לראות שלושה דברים - <br />
             <span style="color:darkgoldenrod"> מספרים מ-1 עד 12 </span>  ,
             <span style="color:red"> מחוג קצר </span> ,
@@ -38,34 +38,34 @@
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
             בתמונה הבאה המחוג הקצר מצביע בדיוק על <b> 9 .</b> <br />
-            <img src="../../Images/Clock9.png" /> <br />
+            <img src="../../Images/B/Clock9.png" /> <br />
             בתמונה הבאה המחוג הקצר מצביע בדיוק על <b> 10 .</b> <br />
-            <img src="../../Images/Clock10.png" /> <br />
+            <img src="../../Images/B/Clock10.png" /> <br />
             בזמן שהמחוג עבר מ-9 ל-10 עברה בדיוק שעה אחת. <br />
             <b>שעה אחת - </b> הזמן שלוקח למחוג הקצר לעבור ממספר אחד למספר הבא. <br />
             כאשר המחוג הארוך מצביע בדיוק על 12, זה אומר שכרגע השעה שלמה. <br />
             <b> דוגמה : </b> <br />
-            <img src="../../Images/Clock0900.png" /> <br />
+            <img src="../../Images/B/Clock0900.png" /> <br />
             המחוג הקצר מצביע בדיוק על 9, והמחוג הארוך מצביע בדיוק על 12. <br />
             זה אומר שהשעה היא <b> 09:00 </b> בדיוק תשע. <br />
             <b> דוגמה נוספת : </b> <br />
-            <img src="../../Images/Clock1000.png" /> <br />
+            <img src="../../Images/B/Clock1000.png" /> <br />
             המחוג הקצר מצביע בדיוק על 10, והמחוג הארוך מצביע בדיוק על 12. <br />
             זה אומר שהשעה היא <b> 10:00 </b> בדיוק עשר. <br />
             כאשר המחוג הארוך מצביע על 6, זה אומר שעברה חצי שעה. <br />
-            <img src="../../Images/Clocks.png" /> <br />
+            <img src="../../Images/B/Clocks.png" /> <br />
             בדיוק חצי שעה &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp בדיוק שעה <br />
             <b> דוגמה : </b> <br />
-            <img src="../../Images/Clock0230.png" /> <br />
+            <img src="../../Images/B/Clock0230.png" /> <br />
             המחוג הקצר מצביע בין 2 ל-3, והמחוג הארוך מצביע בדיוק על 6. <br />
             זה אומר שהשעה היא <b> 02:30 </b> שתיים וחצי בדיוק. <br />
             <b> דוגמה נוספת : </b> <br />
-            <img src="../../Images/Clock0930.png" /> <br />
+            <img src="../../Images/B/Clock0930.png" /> <br />
             המחוג הקצר מצביע בין 9 ל-10, והמחוג הארוך מצביע בדיוק על 6. <br />
             זה אומר שהשעה היא <b> 09:30 </b> תשע וחצי בדיוק. <br />
             מה קורה בתמונה הבאה ? <br />
-            <img src="../../Images/Clock1200.png" /> <br />
+            <img src="../../Images/B/Clock1200.png" /> <br />
             גם המחוג הקצר וגם המחוג הארוך מצביעים ביחד על 12. <br />
             זה אומר שהשעה היא <b> 12:00 </b> בדיוק שתיים שערה. 
         </p>
@@ -81,13 +81,13 @@
             כשאר המחוג הגדול זז 3 מספרים, זה אומר שעברה רבע שעה. <br />
             דוגמה לספירת רבעי שעות - <br />
             אם נתחיל בשעה 02:00 <br />
-            <img src="../../Images/Clock0215.png" /> <br />
+            <img src="../../Images/B/Clock0215.png" /> <br />
             עברה רבע שעה, עכשיו 02:15, 2 ורבע <br />
-            <img src="../../Images/Clock0230.png" /> <br />
+            <img src="../../Images/B/Clock0230.png" /> <br />
             עברה עוד רבע שעה, סך הכל חצי שעה, עכשיו 02:30, 2 וחצי <br />
-            <img src="../../Images/Clock0245.png" /> <br />
+            <img src="../../Images/B/Clock0245.png" /> <br />
             עברה עוד רבע שעה, סך הכל שלושת רבעי שעה, עכשיו 02:45, רבע ל-3 <br />
-            <img src="../../Images/Clock0300.png" /> <br />
+            <img src="../../Images/B/Clock0300.png" /> <br />
             עוד רבע שעה, עכשיו כבר עברה שעה שלמה והשעה היא 03:00 <br />
             בשעה יש 4 רבעי שעה, כל רבע שעה היא 15 דקות. <br />
             כאשר נגיד שהשעה היא X ורבע, המחוג הארוך יהיה על הספרה 3. <br />

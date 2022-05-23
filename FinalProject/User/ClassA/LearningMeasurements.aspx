@@ -16,10 +16,10 @@
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
             <span style="color:#0082e6">השוואה ישירה - </span> נניח שני עצמים זה לצד זה בקו התחלה משותף, לדוגמה עט ועפרון, <br />
             ונראה מי מבניהם ארוך או קצר יותר. <br />
-            <img src="../../Images/PenAndPencil.png" /> <br />
+            <img src="../../Images/A/PenAndPencil.png" /> <br />
             ניתן לראות בקלות שהעט ארוך יותר מהעפרון. <br />
             <b> לא בכל מקרה ניתן לבצע השוואה ישירה בין שני עצמים ! </b> <br /> לדוגמה - <br />
-            <img src="../../Images/CantExample.png" /> <br />
+            <img src="../../Images/A/CantExample.png" /> <br />
             שני הקטעים א' ו ב' מצוירים על הדף, אך לא ניתן להביא אותם זה לצד זה. <br />
             מה נעשה במקרים שבהם לא נוכל לבצע השוואה ישירה ? <br />
             במקרים אלה נבצע <span style="color:#0082e6"> השוואה בעזרת מתווך. </span>
@@ -36,16 +36,16 @@
             במקרים בהם לא נוכל להביא את שני העצמים או יותר אותם נרצה להשוות זה לצד זה, <b> לא נוכל לבצע השוואה ישירה.</b> <br />
             במקרים כאלו נעזר במתווך, שיעזור לנו למדוד כל אחד מהעצמים על מנת להשוות אותם. <br />
             נניח שיש לנו שני עצים : <br /> <b> עץ ראשון - </b> <br />
-            <img src="../../Images/FirstTree.png" /> <br />
+            <img src="../../Images/A/FirstTree.png" /> <br />
             <b> עץ שני - </b> <br />
-            <img src="../../Images/SecondTree.png" /> <br />
+            <img src="../../Images/A/SecondTree.png" /> <br />
             איך נדע מי מבין העצים יותר גבוה ? <br />
             נמתח קו שיסמן את הגובה של כל עץ ואז נשווה בין הקווים. <br /> בעץ אחד נמתח קו כחול. <br />
-            <img src="../../Images/FirstTreeWithArrow.png" /> <br />
+            <img src="../../Images/A/FirstTreeWithArrow.png" /> <br />
             ובעץ השני נמתח קו שחור. <br />
-            <img src="../../Images/SecondTreeWithArrow.png" /> <br />
+            <img src="../../Images/A/SecondTreeWithArrow.png" /> <br />
             עכשיו נשווה בין אורכם של הקווים כדי לדעת איזה עץ גבוה יותר. <br />
-            <img src="../../Images/CompareArrows.png" /> <br />
+            <img src="../../Images/A/CompareArrows.png" /> <br />
             הקו השחור ארוך יותר ולכן <b> העץ השני גבוה יותר ! </b>
         </p>
         <h1 style="font-family: 'montserrat', sans-serif; font-size:80px;color:#0082e6">

@@ -17,23 +17,23 @@
             <b> <span style="color:#0082e6">היקף</span> </b> <br />
             <span style="color:#0082e6">היקף של מצולע - </span> הוא סכום אורכי הצלעות שלו. <br />
             נסתכל על הצורות הבאות - <br />
-            <img src="../../Images/Square.png" /> <img src="../../Images/Plus.png" /> <img src="../../Images/Star.png" /> <br />
+            <img src="../../Images/B/Square.png" /> <img src="../../Images/B/Plus.png" /> <img src="../../Images/B/Star.png" /> <br />
             נסמן בצבע את <span style="color:#0082e6"> ההיקף </span> של הצורות - <br />
-            <img src="../../Images/SquarePerimeter.png" /><img src="../../Images/PlusPerimeter.png" /><img src="../../Images/StarPerimeter.png" /><br />
+            <img src="../../Images/B/SquarePerimeter.png" /><img src="../../Images/B/PlusPerimeter.png" /><img src="../../Images/B/StarPerimeter.png" /><br />
             מהו <b> היקף </b> הצורה שלפניכם לפי יחידת האורך הנתונה ? <br />
-            <img src="../../Images/PerimeterExample3.png" /> <br />
+            <img src="../../Images/B/PerimeterExample3.png" /> <br />
             נסמן את היקף הצורה ונבדוק כמה יחידות אורך יש בהיקף - <br />
-            <img src="../../Images/PerimeterExample3Answer.png" /> <br />
+            <img src="../../Images/B/PerimeterExample3Answer.png" /> <br />
             <span style="color:#0082e6">היקף </span> הצורה הוא <b> 24 </b> יחידות אורך. <br /><br />
             <b> <span style="color:#0082e6">שטח</span> </b> <br />
             <span style="color:#0082e6">שטח של צורה - </span> נקבע לפי מספר ריבועי היחידה שהצורה מכילה. <br />
-            יחידת השטח הנפוצה היא ריבוע יחידה - <br /> <img src="../../Images/SmallSquare.png" /> <br />
+            יחידת השטח הנפוצה היא ריבוע יחידה - <br /> <img src="../../Images/B/SmallSquare.png" /> <br />
             נסמן בצבע את <span style="color:#0082e6"> השטח </span> של הצורות - <br />
-            <img src="../../Images/SquareArea.png" /><img src="../../Images/PlusArea.png" /><img src="../../Images/StarArea.png" /><br />
+            <img src="../../Images/B/SquareArea.png" /><img src="../../Images/B/PlusArea.png" /><img src="../../Images/B/StarArea.png" /><br />
             מהו <b> שטח </b> הצורה שלפניכם לפי יחידת האורך הנתונה ? <br />
-            <img src="../../Images/AreaExample.png" /> <br />
+            <img src="../../Images/B/AreaExample.png" /> <br />
             נסמן את שטח הצורה ונבדוק כמה יחידות שטח יש - <br />
-            <img src="../../Images/AreaExampleAnswer.png" /> <br />
+            <img src="../../Images/B/AreaExampleAnswer.png" /> <br />
             <span style="color:#0082e6">שטח </span> הצורה הוא <b> 11 </b> יחידות שטח.
         </p>
         <h1 style="font-family: 'montserrat', sans-serif; font-size:80px;color:#0082e6">
@@ -48,7 +48,7 @@
             <b> <span style="color:#0082e6">ריבוע - חישוב שטח והיקף</span> </b> <br />
             <span style="color:#0082e6">ריבוע </span> הוא מרובע שבו כל הצלעות שוות באורכן וכל הזוויות שוות ל - 90 . <br />
             מהו <span style="color:#0082e6"> היקף </span> הריבוע שאורכו 3 ס"מ ? <br />
-            <img src="../../Images/Square3.png" /> <br />
+            <img src="../../Images/B/Square3.png" /> <br />
             בריבוע כל הצלעות שוות באורכן, ויש 4 צלעות. <br />
             אורך הצלע בריבוע בדוגמה הוא 3 ס"מ. <br />
             לכן היקף הריבוע יהיה - <br />
@@ -60,7 +60,7 @@
             <b> <span style="color:#0082e6">מלבן - חישוב שטח והיקף</span> </b> <br />
             <span style="color:#0082e6">מלבן </span> הוא מרובע שבו כל הצלעות הנגדיות שוות באורכן וכל הזוויות שוות ל - 90 . <br />
             מהו <span style="color:#0082e6"> היקף </span> המלבן שאורכו 4 ס"מ ורוחבו 3 ס"מ ? <br />
-            <img src="../../Images/Rectangle3X4.png" /> <br />
+            <img src="../../Images/B/Rectangle3X4.png" /> <br />
             במלבן צלעות נגדיות שוות, ולכן יש 2 צלעות שהן 3 ס"מ ו- 2 צלעות שהן 4 ס"מ. <br />
             לכן היקף המלבן יהיה - <br />
             <b> <span style="color:#0082e6"> 14 = 3 + 3 + 4 + 4 </span> </b> <br />
@@ -85,74 +85,74 @@
 
             <b> <span style="color:#0082e6">תיבה</span> </b> <br />
             זוהי תיבה - <br />
-            <img src="../../Images/Box.png" /> <br />
+            <img src="../../Images/B/Box.png" /> <br />
             בתיבה, כל הפאות הן מלבן. <br />
             כמה פאות יש לתיבה ? <br />
-            <img src="../../Images/Box2.png" /> <br />
+            <img src="../../Images/B/Box2.png" /> <br />
             <span style="color:#0082e6">לתיבה </span> יש 6 פאות. <br />
             צלעות בתיבה - <br />
-            <img src="../../Images/BoxEdges.png" /> <br />
+            <img src="../../Images/B/BoxEdges.png" /> <br />
             כמה צלעות יש בתיבה ? <br />
             <span style="color:purple"> בפאה העליונה יש 4 צלעות </span>  ,
             <span style="color:orange"> בפאה התחתונה יש 4 צלעות </span> ,
             <span style="color:green"> ומסביב יש עוד 4 צלעות </span> <br />
-            <img src="../../Images/BoxAllEdges.png" /> <br />
+            <img src="../../Images/B/BoxAllEdges.png" /> <br />
             סך הכל 12 צלעות בתיבה. <br />
             כמה קודקודים יש בתיבה ? <br />
             <span style="color:purple"> למעלה יש 4 קודקודים </span>  ,
             <span style="color:orange"> למטה יש 4 קודקודים </span> <br />
-            <img src="../../Images/BoxWithVertexes.png" /> <br />
+            <img src="../../Images/B/BoxWithVertexes.png" /> <br />
             סך הכל 8 קודקודים בתיבה. <br /><br />
 
             <b> <span style="color:#0082e6">קובייה</span> </b> <br />
             זוהי קובייה - <br />
-            <img src="../../Images/Cube.png" /> <br />
+            <img src="../../Images/B/Cube.png" /> <br />
             קובייה היא תיבה שבה כל הפאות שוות. <br />
             גם בקוביה יש 6 פאות. <br />
             צלעות בקובייה - <br />
             <span style="color:purple"> בפאה העליונה יש 4 צלעות </span>  ,
             <span style="color:orange"> בפאה התחתונה יש 4 צלעות </span> ,
             <span style="color:green"> ומסביב יש עוד 4 צלעות. </span> <br />
-            <img src="../../Images/CubeAllEdges.png" /> <br />
+            <img src="../../Images/B/CubeAllEdges.png" /> <br />
             סך הכל 12 צלעות בקובייה. <br />
             כמה קודקודים יש בקובייה ? <br />
             <span style="color:purple"> למעלה יש 4 קודקודים </span>  ,
             <span style="color:orange"> למטה יש 4 קודקודים </span> <br />
-            <img src="../../Images/CubeWithVertexes.png" /> <br />
+            <img src="../../Images/B/CubeWithVertexes.png" /> <br />
              סך הכל 8 קודקודים בקובייה. <br /><br />
 
             <b> <span style="color:#0082e6">פירמידה</span> </b> <br />
             זוהי פירמידה - <br />
-            <img src="../../Images/Pyramid.png" /> <br />
+            <img src="../../Images/B/Pyramid.png" /> <br />
             המצולע עליו עומדת הפירמידה נקרא בסיס <b> בסיס הפירמידה.</b> <br />
-            <img src="../../Images/PyramidBase.png" /> <br />
+            <img src="../../Images/B/PyramidBase.png" /> <br />
             בפירמידה זו הבסיס הוא מרובע ולכן היא נקראת <span style="color:#0082e6"> פירמידה ריבועית. </span> <br />
             פאות בפירמידה ריבועית - <br />
             בסיס שהוא מרובע,ו-4 משולשים, סך הכל 5 פאות. <br />
             כמה צלעות בפירמידה עם בסיס מרובע ? <br />
             <span style="color:orange"> 4 צלעות בבסיס </span> ,
             <span style="color:green"> ו-4 צלעות מסביב. </span> <br />
-            <img src="../../Images/PyramidAllEdges.png" /> <br />
+            <img src="../../Images/B/PyramidAllEdges.png" /> <br />
             סך הכל 8 צלעות בפירמידה שבסיסה הוא מרובע. <br />
             כמה קודקודים יש בפירמידה עם בסיס מרובע ? <br />
             <span style="color:purple"> למעלה יש קודקוד אחד </span>  ,
             <span style="color:orange"> למטה יש 4 קודקודים </span> <br />
-            <img src="../../Images/PyramidWithVertexes.png" /> <br />
+            <img src="../../Images/B/PyramidWithVertexes.png" /> <br />
             סך הכל 5 קודקודים בפירמידה שבסיסה הוא מרובע. <br /><br />
 
             עכשיו נראה <span style="color:#0082e6"> פירמידה משולשת. </span> <br />
-            <img src="../../Images/PyramidTriangle.png" /> <br />
+            <img src="../../Images/B/PyramidTriangle.png" /> <br />
             בפידרמידה משולשת הבסיס הוא משולש. <br />
             לפירמידה זו יש בסיס ו-3 משולשים, סך הכל 4 פאות. <br />
             כמה צלעות בפירמידה עם בסיס משולש ? <br />
             <span style="color:orange"> 3 צלעות בבסיס </span> ,
             <span style="color:green"> ו-3 צלעות מסביב. </span> <br />
-            <img src="../../Images/PyramidTriangleAllEdges.png" /> <br />
+            <img src="../../Images/B/PyramidTriangleAllEdges.png" /> <br />
             סך הכל 6 צלעות בפירמידה שבסיסה הוא משולש. <br />
             כמה קודקודים יש בפירמידה עם בסיס משולש ? <br />
             <span style="color:purple"> למעלה יש קודקוד אחד </span>  ,
             <span style="color:orange"> למטה יש 3 קודקודים </span> <br />
-            <img src="../../Images/PyramidTriangleWithVertexes.png" /> <br />
+            <img src="../../Images/B/PyramidTriangleWithVertexes.png" /> <br />
             סך הכל 4 קודקודים בפירמידה שבסיסה הוא משולש. 
         </p>
         <h1 style="font-family: 'montserrat', sans-serif; font-size:80px;color:#0082e6">
@@ -166,7 +166,7 @@
         <p runat="server" id="fourthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
             <b> <span style="color:#0082e6">גליל</span> </b> <br />
             זהו גליל - <br />
-            <img src="../../Images/Cylinder.png" /> <br />
+            <img src="../../Images/B/Cylinder.png" /> <br />
             כמה פאות יש לגליל ? <br />
             <b> ניזכר ! </b> <br />
             מתי דופן של גוך נקרא פאה ? <br />
@@ -184,13 +184,13 @@
 
             <b> <span style="color:#0082e6">כדור</span> </b> <br />
             זהו כדור - <br />
-            <img src="../../Images/Ball.png" /> <br />
+            <img src="../../Images/B/Ball.png" /> <br />
             <b> בדומה לגליל - </b> <br />
             גם  <span style="color:#0082e6"> לכדור: אין פאות, אין צלעות ואין קודקודים. </span> <br /><br />
 
             <b> <span style="color:#0082e6">חרוט</span> </b> <br />
             זהו חרוט - <br />
-            <img src="../../Images/Cone.png" /><br />
+            <img src="../../Images/B/Cone.png" /><br />
             <b> בדומה לגליל ולכדור - </b> <br />
             <span style="color:#0082e6"> לחרוט: אין פאות ואין צלעות . </span> <br />
             <b> אך בשונה מהם, לחרוט יש קודקוד אחד ! </b> <br /><br />
@@ -205,9 +205,5 @@
             <b> לגליל וכדור אין פאות, אין צלעות ואין קודקודים. </b> <br />
             <b> לחרוט אין פאות ואין צלעות אבל יש לו קודקוד אחד. </b>
         </p>
-
-
-        
-
     </center>
 </asp:Content>

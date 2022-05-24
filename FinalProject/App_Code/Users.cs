@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Data;
 using System.Data.SqlClient;
-
 public class Users
 {
     private string email;

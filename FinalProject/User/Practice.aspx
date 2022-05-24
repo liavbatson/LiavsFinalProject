@@ -8,7 +8,7 @@
     <table dir="rtl" style="border:none;" width="70%">
         <tr>
             <td colspan="2" style="text-align:center">
-                <asp:Image ID="picture" runat="server" Width="400px" Height="400px" />
+                <asp:Image ID="picture" runat="server" Width="600px" Height="400px" />
             </td>
         </tr>
         <tr>

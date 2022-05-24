@@ -190,6 +190,7 @@ public partial class User_Practice : System.Web.UI.Page
                 labelColor.ForeColor = Color.Green;
                 SoundPlayer splayer = new SoundPlayer(Server.MapPath("~/Audio/Correct-answer.wav"));
                 splayer.Play();
+                b[index].BackColor = Color.Green;
                 if(!Progress.IsExist(Session["email"].ToString(), exs[index].Id))
                     Progress.Insert(Session["email"].ToString(), exs[index].Id, true);
                 else
@@ -201,6 +202,7 @@ public partial class User_Practice : System.Web.UI.Page
                 labelColor.ForeColor = Color.Red;
                 SoundPlayer splayer = new SoundPlayer(Server.MapPath("~/Audio/Failure-trumpet-melody.wav"));
                 splayer.Play();
+                b[index].BackColor = Color.Red;
                 if (!Progress.IsExist(Session["email"].ToString(), exs[index].Id))
                     Progress.Insert(Session["email"].ToString(), exs[index].Id, false);
                 else

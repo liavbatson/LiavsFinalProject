@@ -3,7 +3,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <asp:Label ID="Label1" runat="server" Font-Size="X-Large" style="float:right"></asp:Label>
+    <br />
+    <div style="float:right">
+    <asp:Label ID="Label1" runat="server" Font-Size="X-Large" ></asp:Label>
+    </div>
+    <br /><br />
     <center>
     <table dir="rtl" style="border:none;" width="70%">
         <tr>

@@ -34,6 +34,14 @@ public partial class User_Practice : System.Web.UI.Page
             b[i].Visible = true;
             b[i].Width = 70;
             b[i].Height = 40;
+            if(Progress.IsExist(Session["email"].ToString(), exs[i].Id))
+            {
+                Progress prog = Progress.GetProgress(Session["email"].ToString(), exs[i].Id);
+                if (prog.IsCorrect)
+                    b[i].BackColor = Color.LightGreen;
+                else
+                    b[i].BackColor = Color.Red;
+            }
             panel1.Controls.Add(b[i]);
             if( (i + 1) % 5 == 0 )
             {
@@ -49,7 +57,7 @@ public partial class User_Practice : System.Web.UI.Page
                 switch (sub)
                 {
                     case "GeometricShapes":
-                        Label1.Text = "תרגול - כיתה א' - צורות גיאומטריות - תרגיל מספר ";
+                        Label1.Text = "תרגול - כיתה א' - צורות גיאומטריות ";
                         break;
                     case "Measurements":
                         Label1.Text = "תרגול - כיתה א' - מדידות";
@@ -190,7 +198,7 @@ public partial class User_Practice : System.Web.UI.Page
                 labelColor.ForeColor = Color.Green;
                 SoundPlayer splayer = new SoundPlayer(Server.MapPath("~/Audio/Correct-answer.wav"));
                 splayer.Play();
-                b[index].BackColor = Color.Green;
+                b[index].BackColor = Color.LightGreen;
                 if(!Progress.IsExist(Session["email"].ToString(), exs[index].Id))
                     Progress.Insert(Session["email"].ToString(), exs[index].Id, true);
                 else

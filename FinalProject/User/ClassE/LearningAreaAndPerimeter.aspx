@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             יחידת שטח אחת של 1 סמ"ר - <br />
             <img src="../../Images/E/1X1.png" /> <br />
             יחידת אורך אחת של 1 ס"מ - <br />
@@ -48,6 +50,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             לפנינו משולש ישר זווית : <br />
             <img src="../../Images/E/3X4Triangle.png" /> <br />
             ניקח משולש חופף ונצמיד אותו מעל ובכך ניצור מלבן שמידותיו 3 ס"מ ו-4 ס"מ. <br />
@@ -95,6 +99,8 @@
         </h1>
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaC" runat="server" OnClick="PlayParaC" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaC" runat="server" OnClick="StopParaC" class="audioButtonStop"/> <br />
             נתון משולש ABC : <br />
             במשולש צלע BC 4 ס"מ וגובה לצלע 3 ס"מ. <br />
             <img src="../../Images/E/ABC3.png" /> <br />
@@ -117,6 +123,8 @@
         </h1>
         <br />
         <p runat="server" id="fourthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaD" runat="server" OnClick="PlayParaD" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaD" runat="server" OnClick="StopParaD" class="audioButtonStop"/> <br />
             לפנינו מקבילית ABCD : <br />
             <img src="../../Images/E/ABCD.png" /> <br />
             נוריד גובה מקוקוד A לצלע CD. <br />
@@ -151,6 +159,8 @@
         </h1>
         <br />
         <p runat="server" id="fifthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaE" runat="server" OnClick="PlayParaE" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaE" runat="server" OnClick="StopParaE" class="audioButtonStop"/> <br />
             היקף מעויין 20 ס"מ. <br />
             מה שטח המעויין אם הגובה בו הוא 4 ס"מ ? <br />
             <img src="../../Images/E/5X4Diamond.png" /> <br />

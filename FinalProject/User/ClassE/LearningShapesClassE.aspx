@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             זהו סריג נקודות. <br />
             <img src="../../Images/E/Dots.png" /> <br />     
             נתון הישר <span style="color:orange"> a </span> על סריג הנקודות. <br /><br />
@@ -54,6 +56,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             נתונה צורה א' : <br />
             <img src="../../Images/E/MoonA.png" /> <br />
             יש 3 צורות נוספות ב', ג' ו-ד'. <br />
@@ -95,6 +99,8 @@
         </h1>
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaC" runat="server" OnClick="PlayParaC" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaC" runat="server" OnClick="StopParaC" class="audioButtonStop"/> <br />
             לפנינו שני מצולעים : <br />
             <img src="../../Images/E/Hexagon2.png" /> <br />
             <b> במה הם דומים ובמה הם שונים ? </b> <br />

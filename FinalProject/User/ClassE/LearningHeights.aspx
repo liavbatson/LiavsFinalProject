@@ -14,6 +14,8 @@
         </h1>
         <br />
         <p runat="server" id="firstP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaA" runat="server" OnClick="PlayParaA" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaA" runat="server" OnClick="StopParaA" class="audioButtonStop"/> <br />
             לפנינו משולש, במשולש מסומן קודקוד A וצלע a. <br />
             <img src="../../Images/E/TriangleAa.png" /> <br />
             נשרטט ישר מאונך לצלע a שמתחבר עם קודקוד A : <br />
@@ -61,6 +63,8 @@
         </h1>
         <br />
         <p runat="server" id="secondP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaB" runat="server" OnClick="PlayParaB" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaB" runat="server" OnClick="StopParaB" class="audioButtonStop"/> <br />
             <b> כמה גבהים ניתן להוריד במשולש ? </b> <br />
             ניתן להוריד גובה במשולש מכל קודקוד לצלע שנמצאת ממולו, זאת אומרת סך הכל 3 גבהים : <br />
             <img src="../../Images/E/Height1.png" /> <img src="../../Images/E/Height3.png" /> <img src="../../Images/E/Height2.png" /> <br />
@@ -102,6 +106,8 @@
         </h1>
         <br />
         <p runat="server" id="thirdP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaC" runat="server" OnClick="PlayParaC" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaC" runat="server" OnClick="StopParaC" class="audioButtonStop"/> <br />
             לפנינו מקבילית : <br />
             <img src="../../Images/E/Parallelogram7.png" /> <br />
             רוצים להוריד גובה לצלע CD, איך נעשה את זה ? <br />
@@ -121,6 +127,8 @@
         </h1>
         <br />
         <p runat="server" id="fourthP" style="font-size:25px;font-family: 'montserrat', sans-serif;display:none">
+            <asp:Button ID="PlayMeasurementsParaD" runat="server" OnClick="PlayParaD" class="audioButtonPlay"/>
+            <asp:Button ID="StopMeasurementsParaD" runat="server" OnClick="StopParaD" class="audioButtonStop"/> <br />
             למדנו איך מורידים גובה במקבילית, <b> אך יש אפשרות נוספת. </b> <br />
             <img src="../../Images/E/Parallelogram7.png" /> <br />
             למדנו איך להוריד גובה מקודקוד A או B לצלע CD או הפוך. <br />

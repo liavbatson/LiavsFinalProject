@@ -190,6 +190,10 @@ public partial class User_Practice : System.Web.UI.Page
                 labelColor.ForeColor = Color.Green;
                 SoundPlayer splayer = new SoundPlayer(Server.MapPath("~/Audio/Correct-answer.wav"));
                 splayer.Play();
+                if(!Progress.IsExist(Session["email"].ToString(), exs[index].Id))
+                    Progress.Insert(Session["email"].ToString(), exs[index].Id, true);
+                else
+                    Progress.Update(Session["email"].ToString(), exs[index].Id, true); 
             }
             else
             {
@@ -197,6 +201,10 @@ public partial class User_Practice : System.Web.UI.Page
                 labelColor.ForeColor = Color.Red;
                 SoundPlayer splayer = new SoundPlayer(Server.MapPath("~/Audio/Failure-trumpet-melody.wav"));
                 splayer.Play();
+                if (!Progress.IsExist(Session["email"].ToString(), exs[index].Id))
+                    Progress.Insert(Session["email"].ToString(), exs[index].Id, false);
+                else
+                    Progress.Update(Session["email"].ToString(), exs[index].Id, false);
             }
         }
     }

@@ -10,6 +10,7 @@ using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 public class DAL
 {
+    public const int ERROR_RESULT = -1;
     private static string ConnectionString
     {
         get
@@ -42,12 +43,19 @@ public class DAL
     }
     static public int ExecuteNonQuery(string strSql)
     {
-        int rowsAffected;
-        SqlConnection connection = new SqlConnection(DAL.ConnectionString);
-        SqlCommand cmd = new SqlCommand(strSql, connection);
-        connection.Open();
-        rowsAffected = cmd.ExecuteNonQuery();
-        connection.Close();
-        return rowsAffected;
+        try
+        {
+            int rowsAffected;
+            SqlConnection connection = new SqlConnection(DAL.ConnectionString);
+            SqlCommand cmd = new SqlCommand(strSql, connection);
+            connection.Open();
+            rowsAffected = cmd.ExecuteNonQuery();
+            connection.Close();
+            return rowsAffected;
+        }
+        catch (Exception e)
+        {
+            return ERROR_RESULT;
+        }
     }
 }

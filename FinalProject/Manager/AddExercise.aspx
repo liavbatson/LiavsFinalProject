@@ -59,7 +59,7 @@
             <tr>
                 <td style="text-align:center">
                     <asp:Label ID="Label4" runat="server" Font-Size="Larger" Text="איזה תשובה נכונה ?"></asp:Label>
-                    <asp:DropDownList ID="answer" runat="server" AutoPostBack="true">
+                    <asp:DropDownList ID="answer" runat="server">
                         <asp:ListItem Text="תשובה ראשונה" Value="1"></asp:ListItem>
                         <asp:ListItem Text="תשובה שנייה" Value="2"></asp:ListItem>
                         <asp:ListItem Text="תשובה שלישית" Value="3"></asp:ListItem>
@@ -73,6 +73,6 @@
                 </td>
             </tr>
         </table>
-        <asp:Label ID="Label5" runat="server" Text=""></asp:Label>
+        <asp:Label ID="Label5" runat="server" Font-Size="XX-Large" Text=""></asp:Label>
     </center>
 </asp:Content>

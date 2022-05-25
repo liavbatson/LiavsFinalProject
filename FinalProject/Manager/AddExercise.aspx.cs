@@ -21,9 +21,14 @@ public partial class Manager_AddExercise : System.Web.UI.Page
             if (!Exercises.IsExist(Convert.ToInt32(exId.Text)))
             {
                 string imageFile = Path.GetFileName(FileUpload1.PostedFile.FileName);
-                FileUpload1.SaveAs(Server.MapPath("~/Images/Exercises" + grade.SelectedItem.Value + "/" + subject.SelectedItem.Text + "/") + imageFile);
-                Exercises.Insert(Convert.ToInt32(exId.Text), subject.SelectedItem.Text, grade.SelectedItem.Value, "~/Images/ExercisesA/GeometricShapes/" + imageFile, firstAnswer.Text, secondAnswer.Text, thirdAnswer.Text, fourthAnswer.Text,Convert.ToInt32(answer.SelectedItem.Value));
-                Label5.Text = "התרגיל נוסף.";
+                int res = Exercises.Insert(Convert.ToInt32(exId.Text), subject.SelectedItem.Text.ToString(), grade.SelectedItem.Value.ToString(), ("~/Images/Exercises" + grade.SelectedItem.Value + "/" + subject.SelectedItem.Text + "/" + imageFile).ToString(), firstAnswer.Text.ToString(), secondAnswer.Text.ToString(), thirdAnswer.Text.ToString(), fourthAnswer.Text.ToString(),Convert.ToInt32(answer.SelectedItem.Value));
+                if (res == DAL.ERROR_RESULT)
+                    Label5.Text = "שגיאה בהוספת התרגיל.";
+                else
+                {
+                    Label5.Text = "התרגיל נוסף.";
+                    FileUpload1.SaveAs(Server.MapPath("~/Images/Exercises" + grade.SelectedItem.Value + "/" + subject.SelectedItem.Text + "/") + imageFile);
+                }
                 Label5.Visible = true;
             }
             else
@@ -38,7 +43,7 @@ public partial class Manager_AddExercise : System.Web.UI.Page
             Label5.Visible = true;
         }
     }
-        protected void changeItems(object sender, EventArgs e)
+    protected void changeItems(object sender, EventArgs e)
     {
         String selectedValue = grade.SelectedItem.Value;
         switch (selectedValue)
@@ -51,34 +56,34 @@ public partial class Manager_AddExercise : System.Web.UI.Page
                 break;
             case "B":
                 subject.Items.Clear();
-                subject.Items.Add("מדידת זמן");
-                subject.Items.Add("מצולעים וגופים");
+                subject.Items.Insert(0, new ListItem("PolygonsAndStructures", ""));
+                subject.Items.Insert(1, new ListItem("TimeMeasurements", ""));
                 break;
             case "C":
                 subject.Items.Clear();
-                subject.Items.Add("קווים");
-                subject.Items.Add("זוויות");
-                subject.Items.Add("משולשים");
-                subject.Items.Add("מרובעים");
+                subject.Items.Insert(0, new ListItem("Angles", ""));
+                subject.Items.Insert(1, new ListItem("Lines", ""));
+                subject.Items.Insert(2, new ListItem("Squares", ""));
+                subject.Items.Insert(3, new ListItem("Triangles", ""));
                 break;
             case "D":
                 subject.Items.Clear();
-                subject.Items.Add("צורות");
-                subject.Items.Add("מדידות שטח");
-                subject.Items.Add("תיבה וקוביה");
+                subject.Items.Insert(0, new ListItem("Area", ""));
+                subject.Items.Insert(1, new ListItem("BoxAndCube", ""));
+                subject.Items.Insert(2, new ListItem("Shapes", ""));
                 break;
             case "E":
                 subject.Items.Clear();
-                subject.Items.Add("מצולעים");
-                subject.Items.Add("גבהים במשולש ומקבילית");
-                subject.Items.Add("חישוב שטח והיקף של מצולעים");
+                subject.Items.Insert(0, new ListItem("AreaAndPerimeter", ""));
+                subject.Items.Insert(1, new ListItem("Heights", ""));
+                subject.Items.Insert(2, new ListItem("Shapes", ""));
                 break;
             case "F":
                 subject.Items.Clear();
-                subject.Items.Add("מדידות - מידות עשרוניות");
-                subject.Items.Add("גופים הנדסיים");
-                subject.Items.Add("מעגל ועיגול");
-                subject.Items.Add("נפחים");
+                subject.Items.Insert(0, new ListItem("Circles", ""));
+                subject.Items.Insert(1, new ListItem("DecimalMeasurements", ""));
+                subject.Items.Insert(2, new ListItem("VolumeOfASphere", ""));
+                subject.Items.Insert(3, new ListItem("Volumes", ""));
                 break;
             default:
                 break;

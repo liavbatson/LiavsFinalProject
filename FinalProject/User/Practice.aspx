@@ -18,7 +18,7 @@
         <tr>
             <td colspan="2" style="text-align:center">
                 <center>
-                <asp:RadioButtonList ID="RadioButtonList1" runat="server" AutoPostBack="true" OnSelectedIndexChanged="CheckMyAnswer" >
+                <asp:RadioButtonList ID="RadioButtonList1" Font-Size="XX-Large" runat="server" Height="100px" Width="200px" AutoPostBack="true" OnSelectedIndexChanged="CheckMyAnswer" >
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem></asp:ListItem>

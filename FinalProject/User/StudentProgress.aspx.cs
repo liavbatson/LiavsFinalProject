@@ -28,7 +28,6 @@ public partial class User_StudentProgress : System.Web.UI.Page
             DataSet dQuestions = DAL.GetDataSet("SELECT Id FROM dbo.Exercises WHERE class = 'D'");
             DataSet eQuestions = DAL.GetDataSet("SELECT Id FROM dbo.Exercises WHERE class = 'E'");
             DataSet fQuestions = DAL.GetDataSet("SELECT Id FROM dbo.Exercises WHERE class = 'F'");
-
             /* ints indicates for number of questions in specific class */
             int numberOfQuestionInClassA = aQuestions.Tables[0].Rows.Count;
             int numberOfQuestionInClassB = bQuestions.Tables[0].Rows.Count;
@@ -36,6 +35,60 @@ public partial class User_StudentProgress : System.Web.UI.Page
             int numberOfQuestionInClassD = dQuestions.Tables[0].Rows.Count;
             int numberOfQuestionInClassE = eQuestions.Tables[0].Rows.Count;
             int numberOfQuestionInClassF = fQuestions.Tables[0].Rows.Count;
+            /* correct answers class A */
+            int aCorrect = 0;
+            for(int i=0 ; i < numberOfCorrectAnswers ; i++)
+            {
+                Exercises exer = Exercises.GetExercise(Convert.ToInt32(correctAnswers.Tables[0].Rows[i][0]));
+                if (exer.Grade.Equals("A"))
+                    aCorrect++;   
+            }
+            Label1.Text = numberOfQuestionInClassA + " / " + aCorrect;
+            /* correct answers class B */
+            int bCorrect = 0;
+            for (int i = 0; i < numberOfCorrectAnswers; i++)
+            {
+                Exercises exer = Exercises.GetExercise(Convert.ToInt32(correctAnswers.Tables[0].Rows[i][0]));
+                if (exer.Grade.Equals("B"))
+                    bCorrect++;
+            }
+            Label2.Text = numberOfQuestionInClassB + " / " + bCorrect;
+            /* correct answers class C */
+            int cCorrect = 0;
+            for (int i = 0; i < numberOfCorrectAnswers; i++)
+            {
+                Exercises exer = Exercises.GetExercise(Convert.ToInt32(correctAnswers.Tables[0].Rows[i][0]));
+                if (exer.Grade.Equals("C"))
+                    cCorrect++;
+            }
+            Label3.Text = numberOfQuestionInClassC + " / " + cCorrect;
+            /* correct answers class D */
+            int dCorrect = 0;
+            for (int i = 0; i < numberOfCorrectAnswers; i++)
+            {
+                Exercises exer = Exercises.GetExercise(Convert.ToInt32(correctAnswers.Tables[0].Rows[i][0]));
+                if (exer.Grade.Equals("D"))
+                    dCorrect++;
+            }
+            Label4.Text = numberOfQuestionInClassD + " / " + dCorrect;
+            /* correct answers class E */
+            int eCorrect = 0;
+            for (int i = 0; i < numberOfCorrectAnswers; i++)
+            {
+                Exercises exer = Exercises.GetExercise(Convert.ToInt32(correctAnswers.Tables[0].Rows[i][0]));
+                if (exer.Grade.Equals("E"))
+                    eCorrect++;
+            }
+            Label5.Text = numberOfQuestionInClassE + " / " + eCorrect;
+            /* correct answers class F */
+            int fCorrect = 0;
+            for (int i = 0; i < numberOfCorrectAnswers; i++)
+            {
+                Exercises exer = Exercises.GetExercise(Convert.ToInt32(correctAnswers.Tables[0].Rows[i][0]));
+                if (exer.Grade.Equals("F"))
+                    fCorrect++;
+            }
+            Label6.Text = numberOfQuestionInClassF + " / " + fCorrect;
 
             /* DataSets for questions per subject */
             DataSet aGeometricShapesQuestions = DAL.GetDataSet("SELECT Id FROM dbo.Exercises WHERE class = 'A' AND subject = 'GeometricShapes'");

@@ -5,19 +5,75 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <br />
     <center>
-        <h1 style="text-align:center;font-size:50px"> כיתה א' </h1> <br />
+        <asp:Button ID="Button1" runat="server" Text="כיתה א'" BackColor="White" BorderWidth="0" Font-Size="50px" OnClick="ClassASubjects"/> <br />
         <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" ForeColor="YellowGreen"></asp:Label> <br />
-        <h1 style="text-align:center;font-size:50px"> כיתה ב' </h1> <br />
+        <asp:Panel ID="Panel1" runat="server" Visible="false">
+            <h1 style="text-align:center;font-size:30px"> צורות גיאומטריות </h1> 
+            <asp:Label ID="Label8" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+            <h1 style="text-align:center;font-size:30px"> מדידת אורך </h1>
+            <asp:Label ID="Label9" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+            <h1 style="text-align:center;font-size:30px"> שיקוף וסימטריה </h1>
+            <asp:Label ID="Label10" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+        </asp:Panel>
+
+        <asp:Button ID="Button2" runat="server" Text="כיתה ב'" BackColor="White" BorderWidth="0" Font-Size="50px" OnClick="ClassBSubjects"/> <br />
         <asp:Label ID="Label2" runat="server" Font-Size="XX-Large" ForeColor="YellowGreen"></asp:Label> <br />
-        <h1 style="text-align:center;font-size:50px"> כיתה ג' </h1> <br />
+        <asp:Panel ID="Panel2" runat="server" Visible="false">
+            <h1 style="text-align:center;font-size:30px"> מדידת זמן </h1> 
+            <asp:Label ID="Label11" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+            <h1 style="text-align:center;font-size:30px"> מצולעים וגופים </h1>
+            <asp:Label ID="Label12" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+        </asp:Panel>
+
+        <asp:Button ID="Button3" runat="server" Text="כיתה ג'" BackColor="White" BorderWidth="0" Font-Size="50px" OnClick="ClassCSubjects"/> <br />
         <asp:Label ID="Label3" runat="server" Font-Size="XX-Large" ForeColor="YellowGreen"></asp:Label> <br />
-        <h1 style="text-align:center;font-size:50px"> כיתה ד' </h1> <br />
+        <asp:Panel ID="Panel3" runat="server" Visible="false">
+            <h1 style="text-align:center;font-size:30px"> קווים </h1> 
+            <asp:Label ID="Label13" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+            <h1 style="text-align:center;font-size:30px"> זוויות </h1>
+            <asp:Label ID="Label14" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+            <h1 style="text-align:center;font-size:30px"> משולשים </h1>
+            <asp:Label ID="Label15" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+            <h1 style="text-align:center;font-size:30px"> מרובעים </h1>
+            <asp:Label ID="Label16" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+        </asp:Panel>
+
+        <asp:Button ID="Button4" runat="server" Text="כיתה ד'" BackColor="White" BorderWidth="0" Font-Size="50px" OnClick="ClassDSubjects"/> <br />
         <asp:Label ID="Label4" runat="server" Font-Size="XX-Large" ForeColor="YellowGreen"></asp:Label> <br />
-        <h1 style="text-align:center;font-size:50px"> כיתה ה' </h1> <br />
+        <asp:Panel ID="Panel4" runat="server" Visible="false">
+            <h1 style="text-align:center;font-size:30px"> צורות </h1> 
+            <asp:Label ID="Label17" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+            <h1 style="text-align:center;font-size:30px"> מדידות שטח </h1>
+            <asp:Label ID="Label18" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+            <h1 style="text-align:center;font-size:30px"> תיבה וקובייה </h1>
+            <asp:Label ID="Label19" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+        </asp:Panel>
+
+        <asp:Button ID="Button5" runat="server" Text="כיתה ה'" BackColor="White" BorderWidth="0" Font-Size="50px" OnClick="ClassESubjects"/> <br />
         <asp:Label ID="Label5" runat="server" Font-Size="XX-Large" ForeColor="YellowGreen"></asp:Label> <br />
-        <h1 style="text-align:center;font-size:50px"> כיתה ו' </h1> <br />
+        <asp:Panel ID="Panel5" runat="server" Visible="false">
+            <h1 style="text-align:center;font-size:30px"> מצולעים </h1> 
+            <asp:Label ID="Label20" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+            <h1 style="text-align:center;font-size:30px"> גבהים במשולש ומקבילית </h1>
+            <asp:Label ID="Label21" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+            <h1 style="text-align:center;font-size:30px"> חישוב שטח והיקף של מצולעים </h1>
+            <asp:Label ID="Label22" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+        </asp:Panel>
+
+        <asp:Button ID="Button6" runat="server" Text="כיתה ו'" BackColor="White" BorderWidth="0" Font-Size="50px" OnClick="ClassFSubjects"/> <br />
         <asp:Label ID="Label6" runat="server" Font-Size="XX-Large" ForeColor="YellowGreen"></asp:Label> <br />
-        <h1 style="text-align:center;font-size:50px"> סך הכל </h1> <br />
+        <asp:Panel ID="Panel6" runat="server" Visible="false">
+            <h1 style="text-align:center;font-size:30px"> מדידות - מידות עשרוניות </h1> 
+            <asp:Label ID="Label23" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+            <h1 style="text-align:center;font-size:30px"> גופים הנדסיים </h1>
+            <asp:Label ID="Label24" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+            <h1 style="text-align:center;font-size:30px"> מעגל ועיגול </h1>
+            <asp:Label ID="Label25" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+            <h1 style="text-align:center;font-size:30px"> נפחים </h1>
+            <asp:Label ID="Label26" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
+        </asp:Panel>
+
+        <asp:Button ID="Button7" runat="server" Text="סך הכל" BackColor="White" BorderWidth="0" Font-Size="50px" Enabled="false"/> <br />
         <asp:Label ID="Label7" runat="server" Font-Size="XX-Large" ForeColor="YellowGreen"></asp:Label> <br />
     </center>
 </asp:Content>

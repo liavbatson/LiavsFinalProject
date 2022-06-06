@@ -21,7 +21,7 @@ public partial class Manager_AddExercise : System.Web.UI.Page
             if (!Exercises.IsExist(Convert.ToInt32(exId.Text)))
             {
                 string imageFile = Path.GetFileName(FileUpload1.PostedFile.FileName);
-                int res = Exercises.Insert(Convert.ToInt32(exId.Text), subject.SelectedItem.Text.ToString(), grade.SelectedItem.Value.ToString(), ("~/Images/Exercises" + grade.SelectedItem.Value + "/" + subject.SelectedItem.Text + "/" + imageFile).ToString(), firstAnswer.Text.ToString(), secondAnswer.Text.ToString(), thirdAnswer.Text.ToString(), fourthAnswer.Text.ToString(),Convert.ToInt32(answer.SelectedItem.Value));
+                int res = Exercises.Insert(Convert.ToInt32(exId.Text), subject.SelectedItem.Value.ToString(), grade.SelectedItem.Value.ToString(), ("~/Images/Exercises" + grade.SelectedItem.Value + "/" + subject.SelectedItem.Text + "/" + imageFile).ToString(), firstAnswer.Text.ToString(), secondAnswer.Text.ToString(), thirdAnswer.Text.ToString(), fourthAnswer.Text.ToString(),Convert.ToInt32(answer.SelectedItem.Value));
                 if (res == DAL.ERROR_RESULT)
                     Label5.Text = "שגיאה בהוספת התרגיל.";
                 else
@@ -50,40 +50,40 @@ public partial class Manager_AddExercise : System.Web.UI.Page
         {
             case "A":
                 subject.Items.Clear();
-                subject.Items.Insert(0, new ListItem("Measurements", ""));
-                subject.Items.Insert(1, new ListItem("GeometricShapes", ""));
-                subject.Items.Insert(2, new ListItem("MirroringAndSimetric", ""));
+                subject.Items.Insert(0, new ListItem("Measurements", "Measurements"));
+                subject.Items.Insert(1, new ListItem("GeometricShapes", "GeometricShapes"));
+                subject.Items.Insert(2, new ListItem("MirroringAndSimetric", "MirroringAndSimetric"));
                 break;
             case "B":
                 subject.Items.Clear();
-                subject.Items.Insert(0, new ListItem("PolygonsAndStructures", ""));
-                subject.Items.Insert(1, new ListItem("TimeMeasurements", ""));
+                subject.Items.Insert(0, new ListItem("PolygonsAndStructures", "PolygonsAndStructures"));
+                subject.Items.Insert(1, new ListItem("TimeMeasurements", "TimeMeasurements"));
                 break;
             case "C":
                 subject.Items.Clear();
-                subject.Items.Insert(0, new ListItem("Angles", ""));
-                subject.Items.Insert(1, new ListItem("Lines", ""));
-                subject.Items.Insert(2, new ListItem("Squares", ""));
-                subject.Items.Insert(3, new ListItem("Triangles", ""));
+                subject.Items.Insert(0, new ListItem("Angles", "Angles"));
+                subject.Items.Insert(1, new ListItem("Lines", "Lines"));
+                subject.Items.Insert(2, new ListItem("Squares", "Squares"));
+                subject.Items.Insert(3, new ListItem("Triangles", "Triangles"));
                 break;
             case "D":
                 subject.Items.Clear();
-                subject.Items.Insert(0, new ListItem("Area", ""));
-                subject.Items.Insert(1, new ListItem("BoxAndCube", ""));
-                subject.Items.Insert(2, new ListItem("Shapes", ""));
+                subject.Items.Insert(0, new ListItem("Area", "Area"));
+                subject.Items.Insert(1, new ListItem("BoxAndCube", "BoxAndCube"));
+                subject.Items.Insert(2, new ListItem("Shapes", "Shapes"));
                 break;
             case "E":
                 subject.Items.Clear();
-                subject.Items.Insert(0, new ListItem("AreaAndPerimeter", ""));
-                subject.Items.Insert(1, new ListItem("Heights", ""));
-                subject.Items.Insert(2, new ListItem("Shapes", ""));
+                subject.Items.Insert(0, new ListItem("AreaAndPerimeter", "AreaAndPerimeter"));
+                subject.Items.Insert(1, new ListItem("Heights", "Heights"));
+                subject.Items.Insert(2, new ListItem("Shapes", "Shapes"));
                 break;
             case "F":
                 subject.Items.Clear();
-                subject.Items.Insert(0, new ListItem("Circles", ""));
-                subject.Items.Insert(1, new ListItem("DecimalMeasurements", ""));
-                subject.Items.Insert(2, new ListItem("VolumeOfASphere", ""));
-                subject.Items.Insert(3, new ListItem("Volumes", ""));
+                subject.Items.Insert(0, new ListItem("Circles", "Circles"));
+                subject.Items.Insert(1, new ListItem("DecimalMeasurements", "DecimalMeasurements"));
+                subject.Items.Insert(2, new ListItem("VolumeOfASphere", "VolumeOfASphere"));
+                subject.Items.Insert(3, new ListItem("Volumes", "Volumes"));
                 break;
             default:
                 break;

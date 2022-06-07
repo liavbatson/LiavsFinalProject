@@ -82,6 +82,5 @@
             האם במרובע הבא יש צלעות מאונכות ? <br />
             <img src="../../Images/C/ShapeVertical.png" /> <br />
             <b> <span style="color:#0082e6"> צלעות א' ו-ב' הן מאונכות. </span> </b> <br />
-            האם במרובע הבא יש צלעות מאונכות ? <br />
         </p>
 </asp:Content>

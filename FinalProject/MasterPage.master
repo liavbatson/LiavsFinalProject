@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
     <link href="StyleSheet.css" rel="stylesheet" />
 </head>
-<body>
+<body style="background-image:url(../../Images/background.jpg);background-size:cover">
     <form id="form1" runat="server">
     <nav>
     <div class='tri'>

@@ -3,26 +3,25 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <center>
-        <table border="0" width="90%" style="font-size:x-large" dir="rtl">
+    <br /><br />
+        <table border="0" width="100%" style="font-size:x-large" dir="rtl">
             <tr>
-                <td>
+                <td style="text-align:center">
                     <asp:TextBox ID="mail" runat="server" class="textBoxClass" placeHolder="מייל"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="חובה למלא מייל" ControlToValidate="mail" Text="שדה חובה"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
-                <td>
+                <td style="text-align:center">
                     <asp:TextBox ID="pass" runat="server" class="textBoxClass" placeHolder="סיסמה" TextMode="Password"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="חובה למלא סיסמה" ControlToValidate="pass" Text="שדה חובה"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
-                <td>
+                <td style="text-align:center">
                     <asp:Button ID="Button1" runat="server" Text="התחבר" CssClass="buttonClass" OnClick="Button_Click"></asp:Button>
                 </td>
             </tr>
         </table>
         <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
-    </center>
 </asp:Content>

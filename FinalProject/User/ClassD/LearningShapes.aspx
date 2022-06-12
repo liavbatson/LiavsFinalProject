@@ -5,6 +5,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <br /><br />
     <center>
+        <h1>
+            <asp:HyperLink ID="HyperLink4" runat="server" CssClass="buttonClass" NavigateUrl="~/User/ClassD/TopicsD.aspx">חזרה לנושאי כיתה ד'</asp:HyperLink>
+        </h1>
+        <br />
         <h1 style="font-family: 'montserrat', sans-serif; font-size:80px;color:#0082e6">
             אלכסון במצולע
         </h1>
@@ -36,7 +40,7 @@
             הקטע OM הוא אלכסון במחומש. <br />
             הקטע NP הוא אלכסון במחומש. <br />
             הקטע OQ גם הוא אלכסון במחומש MNOPQ. <br /><br />
-            <b> אלכסון במצולע יכול להיות בתוך המצולע או מלןץ למצולע. </b> <br />
+            <b> אלכסון במצולע יכול להיות בתוך המצולע או מחוץ למצולע. </b> <br />
             מצולע שיש לו לפחות אלכסון אחד מחוץ למצולע יקרא מצולע <b> קעור. </b> (מהמילה קערה). <br />
             <img src="../../Images/D/MNOPQDiagonal.png" /> <br />
             המצולע MNOPQ הוא מצולע קעור. <br /><br />

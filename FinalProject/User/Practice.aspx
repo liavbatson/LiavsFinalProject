@@ -12,13 +12,13 @@
     <table dir="rtl" style="border:none;" width="70%">
         <tr>
             <td colspan="2" style="text-align:center">
-                <asp:Image ID="picture" runat="server" Width="600px" Height="400px" />
+                <asp:Image ID="picture" runat="server" Width="40%" Height="40%" />
             </td>
         </tr>
         <tr>
             <td colspan="2" style="text-align:center">
                 <center>
-                <asp:RadioButtonList ID="RadioButtonList1" runat="server" AutoPostBack="true" OnSelectedIndexChanged="CheckMyAnswer" >
+                <asp:RadioButtonList ID="RadioButtonList1" Font-Size="XX-Large" runat="server" Height="100px" Width="200px" AutoPostBack="true" OnSelectedIndexChanged="CheckMyAnswer" >
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem></asp:ListItem>
                     <asp:ListItem></asp:ListItem>

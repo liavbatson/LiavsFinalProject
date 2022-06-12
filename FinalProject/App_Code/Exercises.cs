@@ -105,7 +105,7 @@ public class Exercises
     }
     public static int Insert(int id, string subject, string grade, string image, string first_answer, string second_answer, string third_answer, string fourth_answer, int correct_answer)
     {
-        string sql = "INSERT INTO dbo.Exercises VALUES('" + id + "','" + subject + "','" + grade + "','" + image + "','" + first_answer + "','" + second_answer + "','" + third_answer + "' , '" + fourth_answer + "' , '" + correct_answer + "')";
+        string sql = "INSERT INTO dbo.Exercises VALUES('" + id + "','" + subject + "','" + grade + "','" + image + "',N'" + first_answer + "',N'" + second_answer + "',N'" + third_answer + "' , N'" + fourth_answer + "' , '" + correct_answer + "')";
         return DAL.ExecuteNonQuery(sql);
     }
     public static int Delete(int id)

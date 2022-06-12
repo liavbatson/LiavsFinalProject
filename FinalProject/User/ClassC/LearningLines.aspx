@@ -5,6 +5,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <br /><br />
     <center>
+        <h1>
+            <asp:HyperLink ID="HyperLink4" runat="server" CssClass="buttonClass" NavigateUrl="~/User/ClassC/TopicsC.aspx">חזרה לנושאי כיתה ג'</asp:HyperLink>
+        </h1>
+        <br />
         <h1 style="font-family: 'montserrat', sans-serif; font-size:80px;color:#0082e6">
             קווים מקבילים
         </h1>
@@ -82,6 +86,5 @@
             האם במרובע הבא יש צלעות מאונכות ? <br />
             <img src="../../Images/C/ShapeVertical.png" /> <br />
             <b> <span style="color:#0082e6"> צלעות א' ו-ב' הן מאונכות. </span> </b> <br />
-            האם במרובע הבא יש צלעות מאונכות ? <br />
         </p>
 </asp:Content>

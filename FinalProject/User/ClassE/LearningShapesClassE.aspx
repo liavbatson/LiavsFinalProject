@@ -5,6 +5,10 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <br /><br />
     <center>
+        <h1>
+            <asp:HyperLink ID="HyperLink4" runat="server" CssClass="buttonClass" NavigateUrl="~/User/ClassE/TopicsE.aspx">חזרה לנושאי כיתה ה'</asp:HyperLink>
+        </h1>
+        <br />
         <h1 style="font-family: 'montserrat', sans-serif; font-size:80px;color:#0082e6">
             שרטוט ישרים מקבילים \ מאונכים ומצולעים על סריג נקודות
         </h1>

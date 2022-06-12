@@ -11,6 +11,10 @@
             כיתה א'
         </h1>
         <br /><br />
+        <h1>
+            <asp:HyperLink ID="HyperLink4" runat="server" CssClass="buttonClass" NavigateUrl="~/User/Classes.aspx">חזרה לכיתות</asp:HyperLink>
+        </h1>
+        <br /><br />
         <h1 style="font-family: 'montserrat', sans-serif; font-size:50px">
             מדידת אורך
         </h1>

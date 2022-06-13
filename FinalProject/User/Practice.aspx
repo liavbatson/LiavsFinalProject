@@ -15,7 +15,7 @@
     <table dir="rtl" style="border:none;" width="70%">
         <tr>
             <td colspan="2" style="text-align:center">
-                <asp:Image ID="picture" runat="server" Width="40%" Height="40%" />
+                <asp:Image ID="picture" runat="server" Width="45%" Height="45%" />
             </td>
         </tr>
         <tr>

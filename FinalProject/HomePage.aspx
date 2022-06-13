@@ -5,8 +5,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 	<br /><br /><br /><br /><br /><br /><br />
-	<marquee scroll-behavior="smooth" behavior="scroll" direction="up" scrollamount="2" style="top:10%;left:10%">
+	<marquee scroll-behavior="smooth" behavior="scroll" direction="up" scrollamount="3" style="top:10%;left:10%">
         <p style="font-family:sans-serif; font-size:40px;font-weight:bold;text-align:center;text-decoration:none" dir="rtl">
+			<span style="color:#0082e6;font-size:60px"> GEOMETRY4KIDS </span> <br /><br />
             קוראים לנו לידור וליאב, <br />
             אנחנו סטודנטים שנה ד' במכללת סמי שמעון <br />
             והמערכת הנ"ל היא פרויקט הגמר שלנו. <br />

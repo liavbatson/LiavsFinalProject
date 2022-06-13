@@ -4,8 +4,11 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <br />
-    <div style="float:right">
-    <asp:Label ID="Label1" runat="server" Font-Size="X-Large" ></asp:Label>
+    <div style="float:right;margin-right:30px">
+    <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" ></asp:Label>
+    </div>
+    <div style="float:left;margin-left:30px">
+        <asp:Image Width="40px" Height="25px" ID="Image1" runat="server" ImageUrl="../../Images/star.jpg" /> <asp:Label ID="Label3" runat="server" Font-Size="XX-Large" ></asp:Label>
     </div>
     <br /><br />
     <center>

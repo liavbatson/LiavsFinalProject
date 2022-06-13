@@ -59,6 +59,6 @@
             </td>
         </tr>
     </table>
-    <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+    <asp:Label ID="Label1" runat="server" Text="" Font-Size="XX-Large"></asp:Label>
     </center>
 </asp:Content>

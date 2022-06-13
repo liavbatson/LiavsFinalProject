@@ -17,11 +17,13 @@ public partial class Register : System.Web.UI.Page
         if(!Users.IsExist(mail.Text))
         {
             Users.Insert(mail.Text, fName.Text, lName.Text, gender.Text, schoolName.Text, phone.Text, pass.Text, false);
+            Label1.ForeColor = System.Drawing.Color.LightGreen;
             Label1.Text = "הנתונים הוכנסו בהצלחה";
             Label1.Visible = true;
         }
         else
         {
+            Label1.ForeColor = System.Drawing.Color.Red;
             Label1.Text = "יש מייל זהה במסד, לא ניתן להכניס";
             Label1.Visible = true;
         }

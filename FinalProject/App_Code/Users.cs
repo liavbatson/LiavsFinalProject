@@ -99,7 +99,7 @@ public class Users
     }
     public static int Insert(string mail, string fName, string lName, string gender, string school, string phone, string pass, bool isManager)
     {
-        string sql = "INSERT INTO dbo.Users VALUES('" + mail + "',N'" + fName + "',N'" + lName + "' , '" + gender + "','" + school + "','" + phone + "','" + pass + "' , '" + isManager + "')";
+        string sql = "INSERT INTO dbo.Users VALUES('" + mail + "',N'" + fName + "',N'" + lName + "' , '" + gender + "',N'" + school + "','" + phone + "','" + pass + "' , '" + isManager + "')";
         return DAL.ExecuteNonQuery(sql);
     }
     public static int Delete(string mail)
@@ -109,7 +109,7 @@ public class Users
     }
     public static int Update(string mail, string fName, string lName, string gender, string school, string phone, string pass, bool isManager)
     {
-        string sql = "UPDATE dbo.Users SET firstName=N'" + fName + "', lastName=N'" + lName + "', gender=N'" + gender + "', school='" + school + "', phone='" + phone + "', password='" + pass + "' , isManager='" + isManager + "' WHERE email='" + mail + "'";
+        string sql = "UPDATE dbo.Users SET firstName=N'" + fName + "', lastName=N'" + lName + "', gender=N'" + gender + "', school=N'" + school + "', phone='" + phone + "', password='" + pass + "' , isManager='" + isManager + "' WHERE email='" + mail + "'";
         return DAL.ExecuteNonQuery(sql);
     }
     public static Users GetUser(string mail)

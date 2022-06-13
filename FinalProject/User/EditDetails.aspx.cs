@@ -35,18 +35,21 @@ public partial class User_EditDetails : System.Web.UI.Page
                 int ra = Users.Update(email.Text, fName.Text, lName.Text, gender.SelectedValue, schoolName.Text, phone.Text, pass.Text, false);
                 if (ra == 0)
                 {
+                    Label1.ForeColor = System.Drawing.Color.Red;
                     Label1.Text = "שגיאה בעדכון";
                     Label1.Visible = true;
                 }
                 else
                 {
+                    Label1.ForeColor = System.Drawing.Color.LightGreen;
                     Label1.Text = "עודכן בהצלחה";
                     Label1.Visible = true;
                 }
             }
             catch (Exception)
             {
-                Label1.Text = "עודכן בהצלחה";
+                Label1.ForeColor = System.Drawing.Color.Red;
+                Label1.Text = "שגיאה בעדכון";
                 Label1.Visible = true;
             }
         }

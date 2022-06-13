@@ -16,6 +16,12 @@ public partial class User_Practice : System.Web.UI.Page
     Button[] b;
     protected void Page_Load(object sender, EventArgs e)
     {
+        DataSet correctAnswers = DAL.GetDataSet("SELECT exId FROM dbo.Progress WHERE email = '" + Session["email"].ToString() + "' AND isCorrect = '" + true + "'");
+        int numberOfCorrectAnswers = correctAnswers.Tables[0].Rows.Count;
+        DataSet totalQuestions = DAL.GetDataSet("SELECT Id FROM dbo.Exercises");
+        int numberOfTotalQuestions = totalQuestions.Tables[0].Rows.Count;
+        Label3.Text = numberOfTotalQuestions + " / " + numberOfCorrectAnswers; ;
+
         string grade = Request.QueryString["class"];
         string sub = Request.QueryString["subject"];
         DataSet ds1 = DAL.GetDataSet("SELECT Id FROM dbo.Exercises WHERE class = '" + grade + "' AND subject = '" + sub + "'");

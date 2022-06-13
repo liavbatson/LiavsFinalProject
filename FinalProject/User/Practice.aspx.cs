@@ -16,6 +16,8 @@ public partial class User_Practice : System.Web.UI.Page
     Button[] b;
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (Session["email"].ToString().Equals(""))
+            Response.Redirect("~/NotAllowed.aspx");
         DataSet correctAnswers = DAL.GetDataSet("SELECT exId FROM dbo.Progress WHERE email = '" + Session["email"].ToString() + "' AND isCorrect = '" + true + "'");
         int numberOfCorrectAnswers = correctAnswers.Tables[0].Rows.Count;
         DataSet totalQuestions = DAL.GetDataSet("SELECT Id FROM dbo.Exercises");

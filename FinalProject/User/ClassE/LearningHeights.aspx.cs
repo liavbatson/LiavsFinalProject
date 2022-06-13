@@ -13,6 +13,8 @@ public partial class User_ClassE_LearningHeights : System.Web.UI.Page
     SoundPlayer paraD;
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (Session["email"].ToString().Equals(""))
+            Response.Redirect("~/NotAllowed.aspx");
         paraA = new SoundPlayer(Server.MapPath("~/Audio/E/HeightsParaA.wav"));
         paraB = new SoundPlayer(Server.MapPath("~/Audio/E/HeightsParaB.wav"));
         paraC = new SoundPlayer(Server.MapPath("~/Audio/E/HeightsParaC.wav"));

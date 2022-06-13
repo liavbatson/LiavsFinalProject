@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <br /><br />
     <center dir="rtl">
         <table border="0" width="90%" style="font-size:x-large;font-family:'Guttman Yad'">
             <tr>

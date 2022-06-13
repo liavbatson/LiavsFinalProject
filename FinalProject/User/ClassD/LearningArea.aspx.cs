@@ -11,6 +11,8 @@ public partial class User_ClassD_LearningArea : System.Web.UI.Page
     SoundPlayer paraB;
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (Session["email"].ToString().Equals(""))
+            Response.Redirect("~/NotAllowed.aspx");
         paraA = new SoundPlayer(Server.MapPath("~/Audio/D/AreaParaA.wav"));
         paraB = new SoundPlayer(Server.MapPath("~/Audio/D/AreaParaB.wav"));
     }

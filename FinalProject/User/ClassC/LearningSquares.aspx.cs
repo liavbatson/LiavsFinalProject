@@ -14,6 +14,8 @@ public partial class User_ClassC_LearningSquares : System.Web.UI.Page
     SoundPlayer paraE;
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (Session["email"].ToString().Equals(""))
+            Response.Redirect("~/NotAllowed.aspx");
         paraA = new SoundPlayer(Server.MapPath("~/Audio/C/SquaresParaA.wav"));
         paraB = new SoundPlayer(Server.MapPath("~/Audio/C/SquaresParaB.wav"));
         paraC = new SoundPlayer(Server.MapPath("~/Audio/C/SquaresParaC.wav"));

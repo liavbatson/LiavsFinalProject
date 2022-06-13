@@ -16,6 +16,8 @@ public partial class User_ClassD_LearningBoxAndCube : System.Web.UI.Page
     SoundPlayer paraG;
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (Session["email"].ToString().Equals(""))
+            Response.Redirect("~/NotAllowed.aspx");
         paraA = new SoundPlayer(Server.MapPath("~/Audio/D/BoxAndCubeParaA.wav"));
         paraB = new SoundPlayer(Server.MapPath("~/Audio/D/BoxAndCubeParaB.wav"));
         paraC = new SoundPlayer(Server.MapPath("~/Audio/D/BoxAndCubeParaC.wav"));

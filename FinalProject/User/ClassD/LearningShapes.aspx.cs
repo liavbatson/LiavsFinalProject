@@ -13,6 +13,8 @@ public partial class User_ClassD_LearningShapes : System.Web.UI.Page
     SoundPlayer paraD;
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (Session["email"].ToString().Equals(""))
+            Response.Redirect("~/NotAllowed.aspx");
         paraA = new SoundPlayer(Server.MapPath("~/Audio/D/ShapesParaA.wav"));
         paraB = new SoundPlayer(Server.MapPath("~/Audio/D/ShapesParaB.wav"));
         paraC = new SoundPlayer(Server.MapPath("~/Audio/D/ShapesParaC.wav"));

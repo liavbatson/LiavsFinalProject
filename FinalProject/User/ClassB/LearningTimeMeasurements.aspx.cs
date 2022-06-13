@@ -12,6 +12,8 @@ public partial class User_ClassB_LearningMeasurementsB : System.Web.UI.Page
     SoundPlayer paraC;
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (Session["email"].ToString().Equals(""))
+            Response.Redirect("~/NotAllowed.aspx");
         paraA = new SoundPlayer(Server.MapPath("~/Audio/B/TimeMeasurementsParaA.wav"));
         paraB = new SoundPlayer(Server.MapPath("~/Audio/B/TimeMeasurementsParaB.wav"));
         paraC = new SoundPlayer(Server.MapPath("~/Audio/B/TimeMeasurementsParaC.wav"));

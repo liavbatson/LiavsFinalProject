@@ -15,6 +15,8 @@ public partial class User_ClassA_LearningGeometricShapes : System.Web.UI.Page
     SoundPlayer paraF;
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (Session["email"].ToString().Equals(""))
+            Response.Redirect("~/NotAllowed.aspx");
         paraA = new SoundPlayer(Server.MapPath("~/Audio/A/GeometricShapesParaA.wav"));
         paraB = new SoundPlayer(Server.MapPath("~/Audio/A/GeometricShapesParaB.wav"));
         paraC = new SoundPlayer(Server.MapPath("~/Audio/A/GeometricShapesParaC.wav"));

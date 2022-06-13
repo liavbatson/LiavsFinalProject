@@ -9,7 +9,8 @@ public partial class User_ClassA_LearningSlidingAndMirroring : System.Web.UI.Pag
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (Session["email"].ToString().Equals(""))
+            Response.Redirect("~/NotAllowed.aspx");
     }
     protected void CloseFirstP(object sender, EventArgs e)
     {

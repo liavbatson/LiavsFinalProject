@@ -12,7 +12,8 @@ public partial class Manager_AddExercise : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (!(bool)Session["isManager"])
+            Response.Redirect("~/NotAllowed.aspx");
     }
     protected void Send_Click(object sender, EventArgs e)
     {

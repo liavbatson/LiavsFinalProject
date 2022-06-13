@@ -13,6 +13,8 @@ public partial class User_ClassB_LearningPolygonsAndStructures : System.Web.UI.P
     SoundPlayer paraD;
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (Session["email"].ToString().Equals(""))
+            Response.Redirect("~/NotAllowed.aspx");
         paraA = new SoundPlayer(Server.MapPath("~/Audio/B/PolygonsAndStructuresParaA.wav"));
         paraB = new SoundPlayer(Server.MapPath("~/Audio/B/PolygonsAndStructuresParaB.wav"));
         paraC = new SoundPlayer(Server.MapPath("~/Audio/B/PolygonsAndStructuresParaC.wav"));

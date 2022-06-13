@@ -9,6 +9,7 @@ public partial class Manager_ManagerMenu : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
-
+        if (!(bool)Session["isManager"])
+            Response.Redirect("~/NotAllowed.aspx");
     }
 }

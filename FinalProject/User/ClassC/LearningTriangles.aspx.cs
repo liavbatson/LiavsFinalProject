@@ -12,6 +12,8 @@ public partial class User_ClassC_LearningTriangles : System.Web.UI.Page
     SoundPlayer paraC;
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (Session["email"].ToString().Equals(""))
+            Response.Redirect("~/NotAllowed.aspx");
         paraA = new SoundPlayer(Server.MapPath("~/Audio/C/TrianglesParaA.wav"));
         paraB = new SoundPlayer(Server.MapPath("~/Audio/C/TrianglesParaB.wav"));
         paraC = new SoundPlayer(Server.MapPath("~/Audio/C/TrianglesParaC.wav"));

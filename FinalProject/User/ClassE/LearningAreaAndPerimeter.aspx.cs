@@ -14,6 +14,8 @@ public partial class User_ClassE_LearningAreaAndPerimeter : System.Web.UI.Page
     SoundPlayer paraE;
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (Session["email"].ToString().Equals(""))
+            Response.Redirect("~/NotAllowed.aspx");
         paraA = new SoundPlayer(Server.MapPath("~/Audio/E/AreaAndPerimeterParaA.wav"));
         paraB = new SoundPlayer(Server.MapPath("~/Audio/E/AreaAndPerimeterParaB.wav"));
         paraC = new SoundPlayer(Server.MapPath("~/Audio/E/AreaAndPerimeterParaC.wav"));

@@ -22,24 +22,31 @@ public partial class Manager_AddExercise : System.Web.UI.Page
             if (!Exercises.IsExist(Convert.ToInt32(exId.Text)))
             {
                 string imageFile = Path.GetFileName(FileUpload1.PostedFile.FileName);
-                int res = Exercises.Insert(Convert.ToInt32(exId.Text), subject.SelectedItem.Value.ToString(), grade.SelectedItem.Value.ToString(), ("~/Images/Exercises" + grade.SelectedItem.Value + "/" + subject.SelectedItem.Text + "/" + imageFile).ToString(), firstAnswer.Text.ToString(), secondAnswer.Text.ToString(), thirdAnswer.Text.ToString(), fourthAnswer.Text.ToString(),Convert.ToInt32(answer.SelectedItem.Value));
-                if (res == DAL.ERROR_RESULT)
-                    Label5.Text = "שגיאה בהוספת התרגיל.";
-                else
+                try
                 {
-                    Label5.Text = "התרגיל נוסף.";
                     FileUpload1.SaveAs(Server.MapPath("~/Images/Exercises" + grade.SelectedItem.Value + "/" + subject.SelectedItem.Text + "/") + imageFile);
+                    int res = Exercises.Insert(Convert.ToInt32(exId.Text), subject.SelectedItem.Value.ToString(), grade.SelectedItem.Value.ToString(), ("~/Images/Exercises" + grade.SelectedItem.Value + "/" + subject.SelectedItem.Text + "/" + imageFile).ToString(), firstAnswer.Text.ToString(), secondAnswer.Text.ToString(), thirdAnswer.Text.ToString(), fourthAnswer.Text.ToString(), Convert.ToInt32(answer.SelectedItem.Value));
+                    Label5.ForeColor = System.Drawing.Color.Green;
+                    Label5.Text = "התרגיל נוסף.";
+                    Label5.Visible = true;
                 }
-                Label5.Visible = true;
+                catch (Exception)
+                {
+                    Label5.ForeColor = System.Drawing.Color.Red;
+                    Label5.Text = "שגיאה בהעלאת תרגיל.";
+                    Label5.Visible = true;
+                }
             }
             else
             {
+                Label5.ForeColor = System.Drawing.Color.Red;
                 Label5.Text = "במסד נתונים יש מספר תרגיל זהה, שנה את מספר התרגיל.";
                 Label5.Visible = true;
             }
         }
         else
         {
+            Label5.ForeColor = System.Drawing.Color.Red;
             Label5.Text = "לא הועלתה תמונה.";
             Label5.Visible = true;
         }

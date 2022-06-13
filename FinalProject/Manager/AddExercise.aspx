@@ -27,6 +27,9 @@
                 <td style="text-align:center">
                     <asp:Label ID="Label3" runat="server" Font-Size="Larger" Text="בחר נושא"></asp:Label>
                     <asp:DropDownList ID="subject" runat="server">
+                        <asp:ListItem Text="Measurements" Value="Measurements"></asp:ListItem>
+                        <asp:ListItem Text="GeometricShapes" Value="GeometricShapes"></asp:ListItem>
+                        <asp:ListItem Text="MirroringAndSimetric" Value="MirroringAndSimetric"></asp:ListItem>
                     </asp:DropDownList>
                 </td>
             </tr>

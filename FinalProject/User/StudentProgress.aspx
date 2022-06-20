@@ -1,11 +1,12 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="StudentProgress.aspx.cs" Inherits="User_StudentProgress" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <link href="../StyleSheet2.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <br />
     <center>
-        <asp:Button ID="Button1" runat="server" Text="כיתה א'" BackColor="Transparent" BorderWidth="0" Font-Size="50px" OnClick="ClassASubjects"/> <br />
+        <asp:Button ID="Button1" CssClass="button" runat="server" Text="כיתה א'" OnClick="ClassASubjects"/> <br />
         <asp:Image ID="image1" Width="40px" Height="25px" ImageUrl="~/Images/star.jpg" runat="server"></asp:Image> <asp:Label ID="Label1" runat="server" Font-Size="XX-Large" ForeColor="YellowGreen"></asp:Label> <br /> 
         <asp:Panel ID="Panel1" runat="server" Visible="false" BorderWidth="1" Width="20%">
             <h1 style="text-align:center;font-size:30px"> צורות גיאומטריות </h1> 
@@ -16,7 +17,7 @@
             <asp:Image ID="image10" Width="30px" Height="20px" ImageUrl="../../Images/star.jpg" runat="server"></asp:Image> <asp:Label ID="Label10" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
         </asp:Panel>
 
-        <asp:Button ID="Button2" runat="server" Text="כיתה ב'" BackColor="Transparent" BorderWidth="0" Font-Size="50px" OnClick="ClassBSubjects"/> <br />
+        <asp:Button ID="Button2" runat="server" Text="כיתה ב'" CssClass="button" OnClick="ClassBSubjects"/> <br />
         <asp:Image ID="image2" Width="40px" Height="25px" ImageUrl="~/Images/star.jpg" runat="server"></asp:Image> <asp:Label ID="Label2" runat="server" Font-Size="XX-Large" ForeColor="YellowGreen"></asp:Label> <br />
         <asp:Panel ID="Panel2" runat="server" Visible="false" BorderWidth="1" Width="20%">
             <h1 style="text-align:center;font-size:30px"> מדידת זמן </h1> 
@@ -25,7 +26,7 @@
             <asp:Image ID="image12" Width="30px" Height="20px" ImageUrl="../../Images/star.jpg" runat="server"></asp:Image> <asp:Label ID="Label12" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
         </asp:Panel>
 
-        <asp:Button ID="Button3" runat="server" Text="כיתה ג'" BackColor="Transparent" BorderWidth="0" Font-Size="50px" OnClick="ClassCSubjects"/> <br />
+        <asp:Button ID="Button3" runat="server" Text="כיתה ג'" CssClass="button" OnClick="ClassCSubjects"/> <br />
         <asp:Image ID="image3" Width="40px" Height="25px" ImageUrl="~/Images/star.jpg" runat="server"></asp:Image> <asp:Label ID="Label3" runat="server" Font-Size="XX-Large" ForeColor="YellowGreen"></asp:Label> <br />
         <asp:Panel ID="Panel3" runat="server" Visible="false" BorderWidth="1" Width="20%">
             <h1 style="text-align:center;font-size:30px"> קווים </h1> 
@@ -38,7 +39,7 @@
             <asp:Image ID="image16" Width="30px" Height="20px" ImageUrl="../../Images/star.jpg" runat="server"></asp:Image> <asp:Label ID="Label16" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
         </asp:Panel>
 
-        <asp:Button ID="Button4" runat="server" Text="כיתה ד'" BackColor="Transparent" BorderWidth="0" Font-Size="50px" OnClick="ClassDSubjects"/> <br />
+        <asp:Button ID="Button4" runat="server" Text="כיתה ד'" CssClass="button" OnClick="ClassDSubjects"/> <br />
         <asp:Image ID="image4" Width="40px" Height="25px" ImageUrl="~/Images/star.jpg" runat="server"></asp:Image> <asp:Label ID="Label4" runat="server" Font-Size="XX-Large" ForeColor="YellowGreen"></asp:Label> <br />
         <asp:Panel ID="Panel4" runat="server" Visible="false" BorderWidth="1" Width="20%">
             <h1 style="text-align:center;font-size:30px"> צורות </h1> 
@@ -49,7 +50,7 @@
             <asp:Image ID="image19" Width="30px" Height="20px" ImageUrl="../../Images/star.jpg" runat="server"></asp:Image> <asp:Label ID="Label19" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
         </asp:Panel>
 
-        <asp:Button ID="Button5" runat="server" Text="כיתה ה'" BackColor="Transparent" BorderWidth="0" Font-Size="50px" OnClick="ClassESubjects"/> <br />
+        <asp:Button ID="Button5" runat="server" Text="כיתה ה'" CssClass="button" OnClick="ClassESubjects"/> <br />
         <asp:Image ID="image5" Width="40px" Height="25px" ImageUrl="~/Images/star.jpg" runat="server"></asp:Image> <asp:Label ID="Label5" runat="server" Font-Size="XX-Large" ForeColor="YellowGreen"></asp:Label> <br />
         <asp:Panel ID="Panel5" runat="server" Visible="false" BorderWidth="1" Width="20%">
             <h1 style="text-align:center;font-size:30px"> מצולעים </h1> 
@@ -60,7 +61,7 @@
             <asp:Image ID="image22" Width="30px" Height="20px" ImageUrl="../../Images/star.jpg" runat="server"></asp:Image> <asp:Label ID="Label22" runat="server" Font-Size="X-Large" ForeColor="#0082e6"></asp:Label> <br />
         </asp:Panel>
 
-        <asp:Button ID="Button6" runat="server" Text="כיתה ו'" BackColor="Transparent" BorderWidth="0" Font-Size="50px" OnClick="ClassFSubjects"/> <br />
+        <asp:Button ID="Button6" runat="server" Text="כיתה ו'" CssClass="button" OnClick="ClassFSubjects"/> <br />
         <asp:Image ID="image6" Width="40px" Height="25px" ImageUrl="~/Images/star.jpg" runat="server"></asp:Image> <asp:Label ID="Label6" runat="server" Font-Size="XX-Large" ForeColor="YellowGreen"></asp:Label> <br />
         <asp:Panel ID="Panel6" runat="server" Visible="false" BorderWidth="1" Width="20%">
             <h1 style="text-align:center;font-size:30px"> מדידות - מידות עשרוניות </h1> 

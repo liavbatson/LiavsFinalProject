@@ -36,12 +36,12 @@ public partial class User_EditDetails : System.Web.UI.Page
                 if (ra == 0)
                 {
                     Label1.ForeColor = System.Drawing.Color.Red;
-                    Label1.Text = "שגיאה בעדכון";
+                    Label1.Text = " שגיאה בעדכון,לא ניתן להחליף כתובת מייל!";
                     Label1.Visible = true;
                 }
                 else
                 {
-                    Label1.ForeColor = System.Drawing.Color.LightGreen;
+                    Label1.ForeColor = System.Drawing.Color.Green;
                     Label1.Text = "עודכן בהצלחה";
                     Label1.Visible = true;
                 }
@@ -49,7 +49,7 @@ public partial class User_EditDetails : System.Web.UI.Page
             catch (Exception)
             {
                 Label1.ForeColor = System.Drawing.Color.Red;
-                Label1.Text = "שגיאה בעדכון";
+                Label1.Text = "שגיאה בעדכון,לא ניתן להחליף כתובת מייל!";
                 Label1.Visible = true;
             }
         }

@@ -6,11 +6,15 @@
     <br /><br />
     <center>
         <h1>
-            <asp:HyperLink ID="usersMenu" NavigateUrl="~/Manager/AllUsers.aspx" runat="server" CssClass="buttonClass" Font-Size="40px">לצפייה במשתמשים</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Manager/AllUsers.aspx" runat="server" CssClass="buttonClass" Font-Size="40px">לצפייה במשתמשים</asp:HyperLink>
         </h1>
         <br /><br /><br />
         <h1>
-            <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Manager/AddExercise.aspx" runat="server" CssClass="buttonClass" Font-Size="40px">הוסף תרגיל</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink2" NavigateUrl="~/Manager/AddExercise.aspx" runat="server" CssClass="buttonClass" Font-Size="40px">הוסף תרגיל</asp:HyperLink>
+        </h1>
+        <br /><br /><br />
+        <h1>
+            <asp:HyperLink ID="HyperLink3" NavigateUrl="~/Manager/ViewProgress.aspx" runat="server" CssClass="buttonClass" Font-Size="40px">צפה בהתקדמות תלמיד</asp:HyperLink>
         </h1>
     </center>
 </asp:Content>

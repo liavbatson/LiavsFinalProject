@@ -3,19 +3,19 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-
+    <br />
     <center>
     <asp:GridView ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" DataKeyNames="email" DataSourceID="SqlDataSource1" Width="80%" Height="80%">
         <Columns>
             <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
-            <asp:BoundField DataField="email" HeaderText="email" ReadOnly="True" SortExpression="email" />
-            <asp:BoundField DataField="firstName" HeaderText="firstName" SortExpression="firstName" />
-            <asp:BoundField DataField="lastName" HeaderText="lastName" SortExpression="lastName" />
-            <asp:BoundField DataField="gender" HeaderText="gender" SortExpression="gender" />
-            <asp:BoundField DataField="school" HeaderText="school" SortExpression="school" />
-            <asp:BoundField DataField="phone" HeaderText="phone" SortExpression="phone" />
-            <asp:BoundField DataField="password" HeaderText="password" SortExpression="password" />
-            <asp:CheckBoxField DataField="isManager" HeaderText="isManager" SortExpression="isManager" />
+            <asp:BoundField DataField="email" HeaderText="מייל" ReadOnly="True" SortExpression="email" />
+            <asp:BoundField DataField="firstName" HeaderText="שם פרטי" SortExpression="firstName" />
+            <asp:BoundField DataField="lastName" HeaderText="שם משפחה" SortExpression="lastName" />
+            <asp:BoundField DataField="gender" HeaderText="מין" SortExpression="gender" />
+            <asp:BoundField DataField="school" HeaderText="בית ספר" SortExpression="school" />
+            <asp:BoundField DataField="phone" HeaderText="פלאפון" SortExpression="phone" />
+            <asp:BoundField DataField="password" HeaderText="סיסמה" SortExpression="password" />
+            <asp:CheckBoxField DataField="isManager" HeaderText="מנהל" ReadOnly="True" SortExpression="isManager" />
         </Columns>
     </asp:GridView>
 

@@ -16,5 +16,9 @@
         <h1>
             <asp:HyperLink ID="HyperLink3" NavigateUrl="~/Manager/ViewProgress.aspx" runat="server" CssClass="buttonClass" Font-Size="40px">צפה בהתקדמות תלמיד</asp:HyperLink>
         </h1>
+        <br /><br /><br />
+        <h1>
+            <asp:HyperLink ID="HyperLink4" NavigateUrl="~/Manager/AllExercises.aspx" runat="server" CssClass="buttonClass" Font-Size="40px">לצפייה בתרגילים</asp:HyperLink>
+        </h1>
     </center>
 </asp:Content>

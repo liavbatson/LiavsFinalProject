@@ -36,4 +36,8 @@ public partial class User_ClassA_TopicsA : System.Web.UI.Page
     {
         Response.Redirect("~/User/ClassA/LearningMirroringAndSimetric.aspx");
     }
+    protected void RedirectToTest(object sender, EventArgs e)
+    {
+        Response.Redirect("~/User/RandomTest.aspx?class=A");
+    }
 }

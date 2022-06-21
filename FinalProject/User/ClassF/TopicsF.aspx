@@ -50,5 +50,13 @@
             <asp:Button ID="Button7" runat="server" Text="למידה" CssClass="buttonClass" OnClick="RedirectToLearningVolumes" />
             <asp:Button ID="Button8" runat="server" Text="תרגול" CssClass="buttonClass" OnClick="RedirectToPracticeVolumes" />
         </h1> 
+        <br /><br />
+        <h1 style="font-family: 'montserrat', sans-serif; font-size:50px">
+            מבחן רנדומלי כיתה ו'
+        </h1>
+        <br />
+        <h1>
+            <asp:Button ID="Button9" runat="server" Text="מבחן" CssClass="buttonClass" OnClick="RedirectToTest" />
+        </h1>
     </center>
 </asp:Content>

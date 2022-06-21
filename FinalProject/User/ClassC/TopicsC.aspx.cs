@@ -44,4 +44,8 @@ public partial class User_ClassC_TopicsC : System.Web.UI.Page
     {
         Response.Redirect("~/User/ClassC/LearningSquares.aspx");
     }
+    protected void RedirectToTest(object sender, EventArgs e)
+    {
+        Response.Redirect("~/User/RandomTest.aspx?class=C");
+    }
 }

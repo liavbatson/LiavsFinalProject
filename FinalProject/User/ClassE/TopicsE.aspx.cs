@@ -36,4 +36,8 @@ public partial class User_ClassE_TopicsE : System.Web.UI.Page
     {
         Response.Redirect("~/User/ClassE/LearningAreaAndPerimeter.aspx");
     }
+    protected void RedirectToTest(object sender, EventArgs e)
+    {
+        Response.Redirect("~/User/RandomTest.aspx?class=E");
+    }
 }

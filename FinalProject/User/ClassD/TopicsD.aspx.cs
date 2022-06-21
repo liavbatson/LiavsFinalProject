@@ -36,4 +36,8 @@ public partial class User_ClassD_TopicsD : System.Web.UI.Page
     {
         Response.Redirect("~/User/ClassD/LearningBoxAndCube.aspx");
     }
+    protected void RedirectToTest(object sender, EventArgs e)
+    {
+        Response.Redirect("~/User/RandomTest.aspx?class=D");
+    }
 }

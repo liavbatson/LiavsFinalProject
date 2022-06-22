@@ -28,8 +28,4 @@ public partial class User_ClassB_TopicsB : System.Web.UI.Page
     {
         Response.Redirect("~/User/ClassB/LearningPolygonsAndStructures.aspx");
     }
-    protected void RedirectToTest(object sender, EventArgs e)
-    {
-        Response.Redirect("~/User/RandomTest.aspx?class=B");
-    }
 }

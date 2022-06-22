@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
 public partial class User_ClassC_TopicsC : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
@@ -43,9 +42,5 @@ public partial class User_ClassC_TopicsC : System.Web.UI.Page
     protected void RedirectToLearningSquares(object sender, EventArgs e)
     {
         Response.Redirect("~/User/ClassC/LearningSquares.aspx");
-    }
-    protected void RedirectToTest(object sender, EventArgs e)
-    {
-        Response.Redirect("~/User/RandomTest.aspx?class=C");
     }
 }

@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
 public partial class User_ClassE_TopicsE : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
@@ -35,9 +34,5 @@ public partial class User_ClassE_TopicsE : System.Web.UI.Page
     protected void RedirectToLearningAreaAndPerimeter(object sender, EventArgs e)
     {
         Response.Redirect("~/User/ClassE/LearningAreaAndPerimeter.aspx");
-    }
-    protected void RedirectToTest(object sender, EventArgs e)
-    {
-        Response.Redirect("~/User/RandomTest.aspx?class=E");
     }
 }
